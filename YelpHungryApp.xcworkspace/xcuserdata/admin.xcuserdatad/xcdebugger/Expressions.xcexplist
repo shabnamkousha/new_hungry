@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "EventDetailViewController.viewWillAppear(Bool) -&gt; ():EventDetailViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "currentItem">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.koloda(KolodaView, viewForCardAt : Int) -&gt; UIView:ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "data_list[index].imageURL">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.searchWithClient() -&gt; ():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.coordinate">
+            </PersistentString>
+            <PersistentString
+               value = "offset">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.checkIfFinishedOpen() -&gt; ():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "data_list">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "EventDetailViewController.checkIfFinished() -&gt; ():EventDetailViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "number">
+            </PersistentString>
+            <PersistentString
+               value = "currentItem.businessid">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "EventDetailViewController.directionTapped(UITapGestureRecognizer) -&gt; ():EventDetailViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "destination.longitude">
+            </PersistentString>
+            <PersistentString
+               value = "destination.latitude">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.setClickDisable() -&gt; ():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "filterButton">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[YLPBusiness initWithDictionary:]:YLPBusiness.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_hours">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "KolodaView.moveOtherCardsWithPercentage(CGFloat) -&gt; ():KolodaView.swift">
+      </ContextState>
+      <ContextState
+         contextName = "AppDelegate.setNotification(at : Date) -&gt; ():AppDelegate.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "triggerDaily.minute">
+            </PersistentString>
+            <PersistentString
+               value = "newComponents.minute">
+            </PersistentString>
+            <PersistentString
+               value = "newComponents.hour">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LikeListViewController.tableView(UITableView, didSelectRowAt : IndexPath) -&gt; ():LikeListViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "controller.businessLikeList">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.myUnwindAction(unwindSegue : UIStoryboardSegue) -&gt; ():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "filters">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[YLPClient(Search) searchWithQuery:completionHandler:]:YLPClient+Search.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "req.URL">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FilterTableViewController.viewWillAppear(Bool) -&gt; ():FilterTableViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.checkIfFinished() -&gt; ():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "timer">
+            </PersistentString>
+            <PersistentString
+               value = "data_list">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.storeListList(business : YLPBusiness) -&gt; ():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "searchResults[1].value(forKey: &quot;businessid&quot;)">
+            </PersistentString>
+            <PersistentString
+               value = "searchResults[0].value(forKey: &quot;businessid&quot;)">
+            </PersistentString>
+            <PersistentString
+               value = "searchResults[2].value(forKey: &quot;businessid&quot;)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "EventDetailViewController.(viewWillAppear(Bool) -&gt; ()).(closure #1):EventDetailViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.businessid">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "EventDetailViewController.(viewWillAppear(Bool) -&gt; ()).(closure #2):EventDetailViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "openhour">
+            </PersistentString>
+            <PersistentString
+               value = "today_hours">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.(searchWithClient() -&gt; ()).(closure #1):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "filters[&quot;categories&quot;] as! Array&lt;String&gt;">
+            </PersistentString>
+            <PersistentString
+               value = "categories">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.locationManager(CLLocationManager, didUpdateLocations : [CLLocation]) -&gt; ():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "timer">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LikeListViewController.clearallButtonTapped(Any) -&gt; ():LikeListViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "controller.likeList.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

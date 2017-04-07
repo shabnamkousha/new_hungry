@@ -1,0 +1,1870 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0370A6BAE58BCF9A691F36F4240537F7 /* Koloda-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B1F1FA308F827DDE5B718161DF0C83B /* Koloda-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05798FA9C2F082CCB9457E04B9D9691F /* YLPBusinessReviews.h in Headers */ = {isa = PBXBuildFile; fileRef = BAF7BF26ABA7C6FE89ADD5749287ABD1 /* YLPBusinessReviews.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		082FA92AEBCC24472DD735AEA0015372 /* POPAnimationExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = E6556E59B57376944248C3270A41520A /* POPAnimationExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		091442CC5D5EA9C84B49F888E2328501 /* pop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B37B00292A70A95742D04DB6CEF7747E /* pop-dummy.m */; };
+		097B551583EA1A88BD9235730BD04EE3 /* POPPropertyAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 18AB7E4F87553C652B758582B443B290 /* POPPropertyAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0BBE5CD20218139167881D45CFF1F101 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C696429DA1D86DA832B39CFAA13770 /* UIImage+GIF.m */; };
+		0D9A0983FB333FDA0A936E1C607B0F47 /* YLPCoordinate.h in Headers */ = {isa = PBXBuildFile; fileRef = D4E597D6C6A9D1AA901CDB9531DCA0ED /* YLPCoordinate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E59F6107E9CD7E10B09E1C942F9B6D4 /* UIView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC07D9D2B4D364E744E7324F793ACE6 /* UIView+WebCache.m */; };
+		0ED0BE531E6987655C7E49BBD7C44A3D /* POPAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5786241514D652F4576EDDA9D872502E /* POPAnimation.mm */; };
+		0F5C5CE2D8C6B19445E7B1960570E836 /* POPAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 699A226BFB223B5A4A0A312E65D81C11 /* POPAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		112F8C7C35DEAC1AD5268CE4F28E5FEA /* POPAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 47EC89598086A468DF94D342CE666F90 /* POPAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		118C7C49DF98A1D35AC2C9AC839CE57E /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2D619E31E30221859CD21EBFE48AF6 /* UIView+WebCacheOperation.m */; };
+		16143090A5E1AC434839BE67339EDB95 /* DraggableCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A357668B519385B2961FACA732F21170 /* DraggableCardView.swift */; };
+		161782812773E6C4776D76E02102F36C /* POPCGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 143E8D491F36779F6B303D3FE9985E9D /* POPCGUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1D6EC5800196AB04C390C606DF0BCE87 /* POPDecayAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = EFE8FF1763292DE11436D84E53EB336A /* POPDecayAnimation.mm */; };
+		209CA5AD8BCF0C5749E084E864D78126 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B7C42B57FB07D35614387A0DA34385E /* Foundation.framework */; };
+		2134B885A5573C990EB1DAA8D374BF66 /* POPBasicAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 85503766AB71DD7BCD8598C64D9B26C1 /* POPBasicAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		21CD6E814EB727D6674935E85B428CF7 /* YelpAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76ECCA4CEB508815C16CFF69D067C8C2 /* YelpAPI-dummy.m */; };
+		21DEABBA28114F7E26F5516D70836CC8 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CD563F87CCB0C0CA23A325894D5705 /* SDWebImageDownloader.m */; };
+		237CF307CDC8A02B27CDB3E53E6F7F01 /* SDWebImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F886F343993342077EA3642998EF2812 /* SDWebImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2383F6B212C7B2A2E2520E9BE304BFB2 /* UIImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = C9B1223E450A31880C72180F331FE41F /* UIImageView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23B084B28382BE0E14D1C015AC26F16E /* YLPClient+Business.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE46EDF76ABA69409BD816E188EC495 /* YLPClient+Business.m */; };
+		264FE65460FA61C809042D1117A46D5F /* Pods-YelpHungryAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94475E12E8E759FF09EBEC5538CF7669 /* Pods-YelpHungryAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		269F9BB3F8704B19FABA511839337B4A /* Pods-YelpHungryAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77610FFAC653EEE937D9A4112A831A57 /* Pods-YelpHungryAppUITests-dummy.m */; };
+		27EA214C7B9EC351EA1DB1644C80D1E3 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7260E3083089A6446E7FDB444A58B2B5 /* SDWebImageDecoder.m */; };
+		28117F4351FE9F0F8901D2C7A424FF8A /* TransformationMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = 5396E2EF49A82D7210C4425EA36A2A96 /* TransformationMatrix.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2D847BFBACECE3AB716313FC0613C6F3 /* NSImage+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D82DD6CFBF0E690BC11032BB282271 /* NSImage+WebCache.m */; };
+		2DCBFF6FF296C855C52E70B7302139A3 /* YLPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 390C9D511B213E93B7596E5AD14E4F90 /* YLPCategory.m */; };
+		2E8798F5624B99D885B6C55C88CA7CA3 /* POPCustomAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = C12B74159C56C40AA52D1CDA2AE39CDC /* POPCustomAnimation.mm */; };
+		3045053359FDEFAED32A09BA0B246A93 /* POPDecayAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D70C4DC3D231A35402F0A811351D4B /* POPDecayAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30C8DB755194C255E0E0936AFFB995EB /* YLPClientPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = D7D580216992304421C162026C0DECEE /* YLPClientPrivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		318115318B128C5B1AD22CD091198D74 /* POPPropertyAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BCDC234666CC04A0F15C90114635E1B /* POPPropertyAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31EA249C96CC3F1D34EE6BF092D93357 /* UIView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 338FCBB3DDDBF029E1B799E7379E4F18 /* UIView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35DBAC3FB47D1B4C4C7AA6555E87A727 /* YLPLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = E12E238E967F9D25CD6696A081481858 /* YLPLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BEE4B2BBB318677B90C011E905372C5 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC5969032F75AA1D5555387803F40A2 /* ImageIO.framework */; };
+		3DFC4863FF2CA8A34F11CCB1A0B51B82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B7C42B57FB07D35614387A0DA34385E /* Foundation.framework */; };
+		3E8F717D572A63CDF478C89A06DA6407 /* YLPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB71E68F25F5CCD2B5D11A91C3E1215 /* YLPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FCC0C7A9CAF6FBF9BE833C95C471331 /* POPAnimationRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 11F21DD79FE9F2D14E0868A3365BD2A5 /* POPAnimationRuntime.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		412FAAD01C9D8AE543D396709F8473C0 /* YLPQueryPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 90518A86084B8C6FF49B86269AF1FAE0 /* YLPQueryPrivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		43ED47B7D1369613B9A6857C2657DC9C /* POPAnimationTracer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B6559DEAE144A2BA7C6DA48404CDC36 /* POPAnimationTracer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43F493E13ACD4459F1238D45254ECED7 /* YLPClient+Business.h in Headers */ = {isa = PBXBuildFile; fileRef = 6803BEA401013F7EA8BCAF8A2471E988 /* YLPClient+Business.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44D9489DB2F9124C20BD06152BB153BF /* YelpAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EB3186CA5A264F5765C9D148F682BCF /* YelpAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46CF3521F40CA04CFFE4495422348611 /* POPDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C00893030DE004872744351441C7463 /* POPDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47CD84F13A1305958D853113DF243ED0 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C8DCD0EB038F02ED54C66F0C32348B18 /* UIImageView+WebCache.m */; };
+		4A2CB7E0B0D8BF317F25948C4B5AF343 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F0738F11281CFD443F3555477F2D46 /* UIImage+MultiFormat.m */; };
+		4C99C644A2DBFC9A88913192628C5760 /* Pods-YelpHungryAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5653A3D0EB0E195518374AC7E54A07BE /* Pods-YelpHungryAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D72C3EA53BEB6819FA5A78A2FA3689E /* UIImageView+HighlightedWebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EAD557DBAF38B919AABC465599A0FA3 /* UIImageView+HighlightedWebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D782EB144294D15FDCFDCD80C27B0AF /* UIView+WebCacheOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = FE3CFD38B49497DED4387A5ABEFA5440 /* UIView+WebCacheOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EFA06E27AE9D3097CDC20FB95049C7B /* SwipeResultDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1D046AB1DB5D16586D2F41E883CBF7 /* SwipeResultDirection.swift */; };
+		4F2C98ADFC5BAF5EEB414B7E38CEE342 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B7C42B57FB07D35614387A0DA34385E /* Foundation.framework */; };
+		533A9231650F1DDB7BB915F86226F2DF /* KolodaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5C0AA4BE3F785A0D489F7366B9A889 /* KolodaView.swift */; };
+		540DC04CDE9F6492D040B12472C88695 /* KolodaViewAnimatior.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECF3D74D535F3B3D69EADA44328DAE3 /* KolodaViewAnimatior.swift */; };
+		54F10DA933BCE29C464FC577B6D0AC47 /* POPAnimatableProperty.mm in Sources */ = {isa = PBXBuildFile; fileRef = F285B1444161D48B89DE82AD837FB640 /* POPAnimatableProperty.mm */; };
+		55321004AC720E810A0F825DA9395B1E /* POPLayerExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7B4EB7F6317B2BA93900FF3229344A66 /* POPLayerExtras.mm */; };
+		56D1E357078DDE6A6686AFC7B6AFE133 /* UnitBezier.h in Headers */ = {isa = PBXBuildFile; fileRef = A13D9A6E2E17B57FCF7D72BBE00CF5AE /* UnitBezier.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		572ABEE75D8C2E658BECD8431BAF5495 /* YLPCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F890C5DD5BC4F9FA1BB711E0524C19 /* YLPCoordinate.m */; };
+		5847F114F630D8408ACA95ACC3A1F1FC /* YLPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAD5338B73E4B74D7B7F57001D66428 /* YLPClient.m */; };
+		5AA1DD0A110D7494C2817FAAE752A676 /* YelpAPI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60C9D5A437F475284C4C54FFF9394DAF /* YelpAPI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DBF5319CD9DF44A1F2AE3FF9B39A9A7 /* SDWebImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = B681FED2F8D3413197BAAAA2B1138595 /* SDWebImageOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E97EAF72A87ED40B7FCC1FF6E72919A /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A47DB01D78021A67FF2EB9E84E022703 /* SDImageCache.m */; };
+		5F9BDC0436331235FFADD09366BA2EA5 /* POPSpringAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 19E7FC213593461ECF3644AB0A44FC1A /* POPSpringAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		611EBA6258C9C42F2029C636A7D47512 /* Koloda-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D85A7EDAD55189378FB7495F021CFCD /* Koloda-dummy.m */; };
+		61BBEB0B1BE50D22C96A48D80D5143AC /* POPCustomAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 232B90646DD9CBC787A2AC807FD8C4C6 /* POPCustomAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		628F467935693A00640CC03563713BE7 /* YLPLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = C101A876292686E6BA8DF2B70A21F71A /* YLPLocation.m */; };
+		672470B8C4009E5E33914EACD7E41F72 /* NSImage+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B19F90A8C6A8B160F90B0E7273EEE06 /* NSImage+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69C653694C632A81FDA4C3334741C271 /* POPGeometry.mm in Sources */ = {isa = PBXBuildFile; fileRef = 596C8B72161940D815139499157B67AB /* POPGeometry.mm */; };
+		69FD1C37268D80D2322A939881AD06C9 /* KolodaCardStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34091AFA7857EC4B446C2949E20ADDBD /* KolodaCardStorage.swift */; };
+		6B58942FEE5EA7B14376B6A53E8D253B /* YLPResponsePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 511CD1FE37448BC79FD7DAFA1A306891 /* YLPResponsePrivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		6E4FED5E342FD2E3A4B34DE431F809D9 /* SDWebImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 20017B4FD1051D963C1A694D36C21FEE /* SDWebImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F2D66A48A062365BA4952421AF4192C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B7C42B57FB07D35614387A0DA34385E /* Foundation.framework */; };
+		70CEC9CC1A4B78EF8E4F5A169D7B2E4D /* POPVector.mm in Sources */ = {isa = PBXBuildFile; fileRef = A888053994E167E74D8EEF91B94691B3 /* POPVector.mm */; };
+		726BCFF5251576C13372233CD4520732 /* POPBasicAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = F15AB8F93850338BBC80CFD73F22C0FF /* POPBasicAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72DB89172AB78AD338694AB86D54C73D /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817246CDFEEF390DF2867725DBD9433B /* OverlayView.swift */; };
+		732033EAA0A34B63117950705E3EB162 /* POPCGUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4AC7B0ABB921933028ECF4F27FA6BF3B /* POPCGUtils.mm */; };
+		7502B03CD47EDF99227A6250E1F4292C /* UIImage+GIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 439C347EE3F248D715F8CE1EAF5FD9B4 /* UIImage+GIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7979A5B1B852D7BF56C33D4CF8C123A4 /* POPAnimationEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B0BBF756F5D6D4EF73F606F51068284 /* POPAnimationEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79D28C5039987E3BD979F3837EFDA83D /* POPAnimationExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4DC02D86013FD663A9EB4B409EF830EC /* POPAnimationExtras.mm */; };
+		7BFAB841297448827C80569515909F45 /* SDWebImageDownloaderOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EEAA9746A97145A7E7795433E00698B /* SDWebImageDownloaderOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CEF721DFF42A3E043997E409BD5CDD3 /* YLPUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 337CB92DCE0922F4D1A3A5F661B2EF47 /* YLPUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F8341EB1F49EB1D30AD1E7D08607A78 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D8086FA35BB8FAF2798B7D95199BB9 /* NSData+ImageContentType.m */; };
+		803FC1136FFED6AFB05C52F7FCE3459C /* POPDecayAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 7561045DF2E66E054910EF03040F74D7 /* POPDecayAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		81D94DDC2AF1479F0CA2F22F02AD5BF3 /* pop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A87D1B7800C1781A42122C09A19CA7D /* pop.framework */; };
+		86CD40EB09D6C53BB275C114E0A1F82B /* NSDictionary+YLPUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAB1CDFD42C3023AB37F52ACCDAA8C7 /* NSDictionary+YLPUtils.m */; };
+		87C96F5A170A11E619C15037EFE4E649 /* POPAnimationRuntime.mm in Sources */ = {isa = PBXBuildFile; fileRef = 754D792E3B9108E2CB1F3C69CB57E35A /* POPAnimationRuntime.mm */; };
+		8806CE7075557D4F56B42FBAE4E74643 /* YLPReview.h in Headers */ = {isa = PBXBuildFile; fileRef = 143471D192427256E1EB41CD41C7123E /* YLPReview.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88D2D4D1D0016B8D14C4CCB3350E7FEB /* NSData+ImageContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F894FE6E64113D433A8D0CFAEC9419B /* NSData+ImageContentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89854EB65390B21669DFF8D3F6642D21 /* SDWebImageCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = F0C931D50F207E0C42B1E5D4CE8D84E2 /* SDWebImageCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A8EB8B4CFE7C3994A74E6C70C1A3865 /* YLPBusiness.m in Sources */ = {isa = PBXBuildFile; fileRef = F55B172708BBB9AEC6DE7BF8D53A6D7A /* YLPBusiness.m */; };
+		8CA3D548625C471FF2C3043128313A6A /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C526F179B88B054872628372AC0AA1 /* SDWebImageCompat.m */; };
+		8DBF4434B421CA81C8AE3E05F0F62881 /* POPAnimationTracer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 776D4B6B571F9111BA7A42588F6456A8 /* POPAnimationTracer.mm */; };
+		91CAE5F59CF1B280C4F3943BCB6ADB3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B7C42B57FB07D35614387A0DA34385E /* Foundation.framework */; };
+		92AFA9B04F35B8439951392707254CEF /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 423AD724709CD0443B8E3811EEB2F3C8 /* UIImageView+HighlightedWebCache.m */; };
+		9600BFB8914156AA41578B84BA459926 /* SDImageCacheConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = B0AE87147E39F1B37F42D0D119596872 /* SDImageCacheConfig.m */; };
+		9878FFEB5378C1A71B800D9A25809578 /* POPAnimationPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 69D35AC64C6C491467C3C32E591B583B /* POPAnimationPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9A3926DCD74E613E5C3156C9E2772EF6 /* SDWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E584CBFDEB15187DD2AA87CA71C2D3E6 /* SDWebImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A826F11F6BEA64ADF9EA3D453659A1A /* YLPBusiness.h in Headers */ = {isa = PBXBuildFile; fileRef = C49A80E05F739FFAEBC0F813BC76D9C1 /* YLPBusiness.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AE61F3F4384E022E3EC153BF9CDD464 /* POPLayerExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = F08212FD74211BC32FA68E1E9A2C7558 /* POPLayerExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DE7D89B967A19293632A8056073E347 /* Pods-YelpHungryApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33DF5BE781D1E837D5ED550795676C92 /* Pods-YelpHungryApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EFECF9947AF11473FBEC8C39A65E9AC /* POPAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 87B02618A82CBE0F00D8369B86D0452B /* POPAction.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A084A4488919AAA8AB7EE9D062EA9D08 /* YLPClient+Reviews.h in Headers */ = {isa = PBXBuildFile; fileRef = 3871C46AC68AEC05ECC8791A6DD8CE70 /* YLPClient+Reviews.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2F117964491634615E3E8DC9C4233B7 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F36F40AAE9C011D65AE7F309E1918162 /* SDWebImageManager.m */; };
+		A41FE92982915863ACC7BC054D72E144 /* SDImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = A132F06FC66B0F307E86EEAB9DAC0919 /* SDImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A92D3B8C8BB1D7BDCD8D24AA13B83778 /* POPMath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 679BE55D6DF58CF6FE30946F5530291B /* POPMath.mm */; };
+		AA25531D2526E7400F9EFBF7203253D7 /* POPSpringAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 57E5DE0E6140D45732339DD0CA7B29EC /* POPSpringAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AE3E90022AAD2D3A5489DE09A80703D6 /* YLPClient+Reviews.m in Sources */ = {isa = PBXBuildFile; fileRef = A01E13BA59AB6CF8FF611170EBE83FB1 /* YLPClient+Reviews.m */; };
+		AFA7F36E3DCA966C0A973841DC20EACF /* POPAnimatableProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = DEDDF84CC844992E66532EF7C25E65CC /* POPAnimatableProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFDDCBA3AE59B82CC5E497D14566C323 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC9D39DFBB71A8181E8621E24F8B3BA /* UIButton+WebCache.m */; };
+		B6BA0CBA5DAC94DB26257DDFE2544E30 /* POPAnimationEventInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = A8D71FACC1D2C01C8C040F8D2BE6424A /* POPAnimationEventInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B9BDCD4F5BF6ED3CF9A54DACD5ED0BEA /* UIButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 34A4E103E1A996C31A086D0317CC3EB7 /* UIButton+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC9952D69AB08F14F395C7666192E214 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B7C42B57FB07D35614387A0DA34385E /* Foundation.framework */; };
+		C05648CB7A9BB0A75933E0322B88585C /* UIImage+MultiFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = E7635FF91574C591049EEA811905235E /* UIImage+MultiFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3A95A8FAC375C8028FEF81B53AA0D91 /* YLPClient+PhoneSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F2DBBA679D14131457D9FE5D9F01F1 /* YLPClient+PhoneSearch.m */; };
+		C3E860E02FAFAB738119F7F5A6A3CFF7 /* YLPCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 7766BE41E0E4CC1B0E4B7F6AC752F830 /* YLPCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3FE4825DE03FA8E3FEBFE04FF28817D /* POPAnimator.mm in Sources */ = {isa = PBXBuildFile; fileRef = CC7049E50F39C5A0881791C1F5D0F6EA /* POPAnimator.mm */; };
+		C4271BEFC3CC34BB2A95F0B2350B0080 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA25D56B614595C797634E1731CEAEE1 /* UIKit.framework */; };
+		C4689A98C80FAE99E8CEAB21764A1475 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B7C42B57FB07D35614387A0DA34385E /* Foundation.framework */; };
+		C4B61C095ED7D9C0696FD088E8BA00B2 /* POPPropertyAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = ED9A9F679AA516A51D7D66914902BD16 /* POPPropertyAnimation.mm */; };
+		C7F2DB90F91D99EEBC46FD72588469F2 /* POPGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C4A779A6D889805B6FC435A6D3AFC4 /* POPGeometry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA97623842E7E08C9D4045D6AA2432A3 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = E16FCDDA1E744412D64C92377801A0B8 /* SDWebImagePrefetcher.m */; };
+		CE5631FFA729833DECEAED115B4EE1AC /* YLPClient+PhoneSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E6699538CA46607A2A30640B33DD54E /* YLPClient+PhoneSearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3ED3A0ACA9D4B3106B4D1DA3A38A66C /* YLPClient+Search.m in Sources */ = {isa = PBXBuildFile; fileRef = B216BB099B55B394F1BBF6378F2A618B /* YLPClient+Search.m */; };
+		D404AEE7ADE5C9C2F123C84D4BC246B5 /* SDWebImagePrefetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A7B34E2B09D9E33D425619BE1E1759D /* SDWebImagePrefetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5A1FED0856A10F53BE000F1C25CE407 /* pop-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 457FA90676E4855830B2D7C9A1BFF659 /* pop-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6A47178A4C100A23454657400E63862 /* POPSpringSolver.h in Headers */ = {isa = PBXBuildFile; fileRef = A83743CC42E6B526EED934CCD45E3E85 /* POPSpringSolver.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D6EB8367A247FF4D7BA835405518AA87 /* Pods-YelpHungryAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BCABE0AFE30900C58E1210A4F6356FCC /* Pods-YelpHungryAppTests-dummy.m */; };
+		D7479C01F7ACA8FAB12C2CB46C84ED87 /* YLPQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 19EACE1A63D6024D2F317ED12A38699A /* YLPQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D81829A6D79AABFD96AE5075702924BE /* SDWebImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 034AEAB3C0468224276BC8D89F63847A /* SDWebImage-dummy.m */; };
+		D9A3E371FD7C2B08CA947E0305885AD5 /* YLPSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = A66AE43A90544DE2428D3449ABA52DFE /* YLPSearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA0085AA10D1F19D4B3ED7A655EC5B01 /* YLPClient+Search.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D931BCE42F08869D137AD3959F85581 /* YLPClient+Search.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC0FCE670975A1C3E088AB9BBA76E38F /* POP.h in Headers */ = {isa = PBXBuildFile; fileRef = 5337CE7EA3DABD7D812322EB79224A11 /* POP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD360B1EDF1C5906C19196EA37B358B8 /* POPAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 97752FD4E7D93FD5BE5334D332334DDE /* POPAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E09BC30F760EE7F5CB551D125C7015D2 /* YLPUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C36477C471864AFDC52D62D4301839C /* YLPUser.m */; };
+		E249073407E60B18B2C5C8B8070C0D45 /* SDImageCacheConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CB1148C09A6BB26AB9812D28FCDBA6E /* SDImageCacheConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2B5B304E7BE2889738E4E34A2F9E96F /* YLPReview.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A87871CFEB7379F36EAA744B0057D2 /* YLPReview.m */; };
+		E7977CE5D10B1E31304069F3062C5222 /* FloatConversion.h in Headers */ = {isa = PBXBuildFile; fileRef = F3E36C335F02B204B91A589C4AE06FFD /* FloatConversion.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E7CFA496151B74F9E89CA0A87FB66C30 /* POPBasicAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = AAC29D086332DECEF0DCC28C57634978 /* POPBasicAnimation.mm */; };
+		E8974278399F5501771E817A3ACFF711 /* POPSpringAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8B026B521FB2B431A61B71DE01AA2D64 /* POPSpringAnimation.mm */; };
+		E9BEB8C262417FDA8B44FFADAB036240 /* POPAnimationEvent.mm in Sources */ = {isa = PBXBuildFile; fileRef = 79AAFFDCBA6B6559FC8BE485462C1970 /* POPAnimationEvent.mm */; };
+		EB7CC60348D09E25F14203CD456022DB /* TransformationMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D07C158AEF0C8167450CC1520A38BDD /* TransformationMatrix.cpp */; };
+		EC3D03605F00C70F044AA5E14374A747 /* YLPSortType.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E50F7EE8B095AC8BFA4FA6A52950777 /* YLPSortType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECFAB28CFB12A1C091E30310922DAA02 /* YLPBusinessReviews.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A454D04AFC1AD2F52DD820A7438DB0 /* YLPBusinessReviews.m */; };
+		EE2B1757EB1924AE1135B9E4D29871B4 /* SDWebImageDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = B9118E973C74829F36A62B10B73CB5A8 /* SDWebImageDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEA7C42245C16EE0D5F1EC70E2C9EE1A /* POPMath.h in Headers */ = {isa = PBXBuildFile; fileRef = AA86C7D77F4C98EE4B92A3BF15A4F53E /* POPMath.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F8825B261EE95C46D2F3D0610BE83EEA /* POPAnimatorPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = C8F42990B377D9FBDE8B79FD4FE30E51 /* POPAnimatorPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F8FB76C7A2DB8FAB372603C9EA66D5B2 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F12CC194FF82444C8079B81F55BF5F /* SDWebImageDownloaderOperation.m */; };
+		F959060194AD6FB27A8CB306E2B54E50 /* POPAnimationTracerInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 76426EDCC791B7BEE5616960E6A0525A /* POPAnimationTracerInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FA34A48C9E4C202B3EBD11B2721CDE83 /* Pods-YelpHungryApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83480DA943FC2C4AC9AF5C69619170BC /* Pods-YelpHungryApp-dummy.m */; };
+		FC5BEE4AA90635E2483D6E51851027EE /* YLPQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB9B049D0D49DB98ED3F8ED25A51EA6 /* YLPQuery.m */; };
+		FE8E36200138DB0A4D879C75D7B808D4 /* POPVector.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F392F67580708E79156214A482EAE5 /* POPVector.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FFE79BC7CCB3B98BF52CA4465BA37FF8 /* YLPSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 66015990BEA0B37E0CF9B5B90407AD89 /* YLPSearch.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		517B2F2EEE09BA9CB16CEC9C08003242 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39CC3351A6D131BDE60E78AAFD924911;
+			remoteInfo = SDWebImage;
+		};
+		540DB6F09608FC2E196C57CC9E20A41D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BDD0E42347ED8EDEA19928B85B79254;
+			remoteInfo = pop;
+		};
+		7092844312059E0C968784DC0D73FDED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20151774CE2F5FA6B8126D4F5ED1C5FE;
+			remoteInfo = Koloda;
+		};
+		75858C52ADC08ADF54CFBBC168758796 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 364824457B684FB7C7674448A4C0AECF;
+			remoteInfo = YelpAPI;
+		};
+		E126D4DE5A687153BD28A0F927DE1F20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BDD0E42347ED8EDEA19928B85B79254;
+			remoteInfo = pop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		034AEAB3C0468224276BC8D89F63847A /* SDWebImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDWebImage-dummy.m"; sourceTree = "<group>"; };
+		054393759BD3FFDE911935362E58075F /* Pods-YelpHungryAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YelpHungryAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		07F9888900992E9883E2649D3150813C /* Pods-YelpHungryAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YelpHungryAppTests.modulemap"; sourceTree = "<group>"; };
+		0C00893030DE004872744351441C7463 /* POPDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDefines.h; path = pop/POPDefines.h; sourceTree = "<group>"; };
+		0D4B5CF7F184F9A5547B6C56A37CC57C /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDWebImage.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D85A7EDAD55189378FB7495F021CFCD /* Koloda-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Koloda-dummy.m"; sourceTree = "<group>"; };
+		0DADA278ED6E766A4DCB9DB54C15BF7F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10178B963466224D1188C8239330C7B2 /* Pods-YelpHungryAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YelpHungryAppUITests-frameworks.sh"; sourceTree = "<group>"; };
+		11F21DD79FE9F2D14E0868A3365BD2A5 /* POPAnimationRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationRuntime.h; path = pop/POPAnimationRuntime.h; sourceTree = "<group>"; };
+		134DC5543BFCDFFE72A3A557E9581A0E /* SDWebImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SDWebImage.modulemap; sourceTree = "<group>"; };
+		13AC61FB219B955FF69BC73EF621D280 /* Pods-YelpHungryAppTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YelpHungryAppTests-frameworks.sh"; sourceTree = "<group>"; };
+		143471D192427256E1EB41CD41C7123E /* YLPReview.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLPReview.h; path = Classes/Response/YLPReview.h; sourceTree = "<group>"; };
+		143E8D491F36779F6B303D3FE9985E9D /* POPCGUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPCGUtils.h; path = pop/POPCGUtils.h; sourceTree = "<group>"; };
+		15A87871CFEB7379F36EAA744B0057D2 /* YLPReview.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLPReview.m; path = Classes/Response/YLPReview.m; sourceTree = "<group>"; };
+		18AB7E4F87553C652B758582B443B290 /* POPPropertyAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPPropertyAnimationInternal.h; path = pop/POPPropertyAnimationInternal.h; sourceTree = "<group>"; };
+		19E7FC213593461ECF3644AB0A44FC1A /* POPSpringAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringAnimation.h; path = pop/POPSpringAnimation.h; sourceTree = "<group>"; };
+		19EACE1A63D6024D2F317ED12A38699A /* YLPQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLPQuery.h; path = Classes/Request/YLPQuery.h; sourceTree = "<group>"; };
+		1C1D046AB1DB5D16586D2F41E883CBF7 /* SwipeResultDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeResultDirection.swift; path = Pod/Classes/KolodaView/SwipeResultDirection.swift; sourceTree = "<group>"; };
+		1FB71E68F25F5CCD2B5D11A91C3E1215 /* YLPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLPClient.h; path = Classes/Client/YLPClient.h; sourceTree = "<group>"; };
+		20017B4FD1051D963C1A694D36C21FEE /* SDWebImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloader.h; path = SDWebImage/SDWebImageDownloader.h; sourceTree = "<group>"; };
+		201176FA15D8868D1316CBD6FA622531 /* Pods-YelpHungryApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YelpHungryApp.release.xcconfig"; sourceTree = "<group>"; };
+		232B90646DD9CBC787A2AC807FD8C4C6 /* POPCustomAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPCustomAnimation.h; path = pop/POPCustomAnimation.h; sourceTree = "<group>"; };
+		23D70C4DC3D231A35402F0A811351D4B /* POPDecayAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDecayAnimation.h; path = pop/POPDecayAnimation.h; sourceTree = "<group>"; };
+		2A87D1B7800C1781A42122C09A19CA7D /* pop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = pop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B19F90A8C6A8B160F90B0E7273EEE06 /* NSImage+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSImage+WebCache.h"; path = "SDWebImage/NSImage+WebCache.h"; sourceTree = "<group>"; };
+		2B6559DEAE144A2BA7C6DA48404CDC36 /* POPAnimationTracer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationTracer.h; path = pop/POPAnimationTracer.h; sourceTree = "<group>"; };
+		2EAD557DBAF38B919AABC465599A0FA3 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HighlightedWebCache.h"; path = "SDWebImage/UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		2EDD750224648917642C043063AF1498 /* Pods-YelpHungryAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YelpHungryAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		303B304270C0B132D5BA4DFFC23DC2D1 /* Pods-YelpHungryAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YelpHungryAppUITests.modulemap"; sourceTree = "<group>"; };
+		32F392F67580708E79156214A482EAE5 /* POPVector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPVector.h; path = pop/POPVector.h; sourceTree = "<group>"; };
+		337CB92DCE0922F4D1A3A5F661B2EF47 /* YLPUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLPUser.h; path = Classes/Response/YLPUser.h; sourceTree = "<group>"; };
+		338FCBB3DDDBF029E1B799E7379E4F18 /* UIView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCache.h"; path = "SDWebImage/UIView+WebCache.h"; sourceTree = "<group>"; };
+		33DF5BE781D1E837D5ED550795676C92 /* Pods-YelpHungryApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YelpHungryApp-umbrella.h"; sourceTree = "<group>"; };
+		34091AFA7857EC4B446C2949E20ADDBD /* KolodaCardStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KolodaCardStorage.swift; path = Pod/Classes/KolodaView/KolodaCardStorage.swift; sourceTree = "<group>"; };
+		34A4E103E1A996C31A086D0317CC3EB7 /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/UIButton+WebCache.h"; sourceTree = "<group>"; };
+		37742BA748A5EF4CA337776F3417E696 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3871C46AC68AEC05ECC8791A6DD8CE70 /* YLPClient+Reviews.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YLPClient+Reviews.h"; path = "Classes/Client/YLPClient+Reviews.h"; sourceTree = "<group>"; };
+		38D8086FA35BB8FAF2798B7D95199BB9 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+ImageContentType.m"; path = "SDWebImage/NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		390C9D511B213E93B7596E5AD14E4F90 /* YLPCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLPCategory.m; path = Classes/Response/YLPCategory.m; sourceTree = "<group>"; };
+		3B95E6C99C88EE4B0F23E018001E7BB6 /* SDWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-prefix.pch"; sourceTree = "<group>"; };
+		3BE46EDF76ABA69409BD816E188EC495 /* YLPClient+Business.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "YLPClient+Business.m"; path = "Classes/Client/YLPClient+Business.m"; sourceTree = "<group>"; };
+		3D07C158AEF0C8167450CC1520A38BDD /* TransformationMatrix.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = TransformationMatrix.cpp; path = pop/WebCore/TransformationMatrix.cpp; sourceTree = "<group>"; };
+		3EA03C163BD5BA6B31F6B9CC06660286 /* Pods-YelpHungryApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YelpHungryApp-resources.sh"; sourceTree = "<group>"; };
+		3EEAA9746A97145A7E7795433E00698B /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderOperation.h; path = SDWebImage/SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		423AD724709CD0443B8E3811EEB2F3C8 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HighlightedWebCache.m"; path = "SDWebImage/UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		439C347EE3F248D715F8CE1EAF5FD9B4 /* UIImage+GIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "SDWebImage/UIImage+GIF.h"; sourceTree = "<group>"; };
+		4445499669EB3E7E39BF95D700C7BB7A /* Pods-YelpHungryAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YelpHungryAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4563A8229F14066B365AAEB919E8E31E /* Pods-YelpHungryAppUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YelpHungryAppUITests-resources.sh"; sourceTree = "<group>"; };
+		457FA90676E4855830B2D7C9A1BFF659 /* pop-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "pop-umbrella.h"; sourceTree = "<group>"; };
+		4590B7B90D9E533E7C6D113F4729600F /* Pods_YelpHungryAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YelpHungryAppTests.framework; path = "Pods-YelpHungryAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47EC89598086A468DF94D342CE666F90 /* POPAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimator.h; path = pop/POPAnimator.h; sourceTree = "<group>"; };
+		48E10C8F69971F26DDF54FF77D4567B9 /* Koloda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Koloda.framework; path = Koloda.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A7B34E2B09D9E33D425619BE1E1759D /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = SDWebImage/SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		4AC7B0ABB921933028ECF4F27FA6BF3B /* POPCGUtils.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPCGUtils.mm; path = pop/POPCGUtils.mm; sourceTree = "<group>"; };
+		4DC02D86013FD663A9EB4B409EF830EC /* POPAnimationExtras.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimationExtras.mm; path = pop/POPAnimationExtras.mm; sourceTree = "<group>"; };
+		511CD1FE37448BC79FD7DAFA1A306891 /* YLPResponsePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLPResponsePrivate.h; path = Classes/Response/YLPResponsePrivate.h; sourceTree = "<group>"; };
+		531DDE3F4D8283CAE7E8499098EB83DA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5337CE7EA3DABD7D812322EB79224A11 /* POP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POP.h; path = pop/POP.h; sourceTree = "<group>"; };
+		5396E2EF49A82D7210C4425EA36A2A96 /* TransformationMatrix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransformationMatrix.h; path = pop/WebCore/TransformationMatrix.h; sourceTree = "<group>"; };
+		5653A3D0EB0E195518374AC7E54A07BE /* Pods-YelpHungryAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YelpHungryAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		56CD563F87CCB0C0CA23A325894D5705 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = SDWebImage/SDWebImageDownloader.m; sourceTree = "<group>"; };
+		5786241514D652F4576EDDA9D872502E /* POPAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimation.mm; path = pop/POPAnimation.mm; sourceTree = "<group>"; };
+		57E5DE0E6140D45732339DD0CA7B29EC /* POPSpringAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringAnimationInternal.h; path = pop/POPSpringAnimationInternal.h; sourceTree = "<group>"; };
+		596C8B72161940D815139499157B67AB /* POPGeometry.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPGeometry.mm; path = pop/POPGeometry.mm; sourceTree = "<group>"; };
+		5C501AFCDA2E157C7314D134609C324C /* Pods-YelpHungryAppTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YelpHungryAppTests-resources.sh"; sourceTree = "<group>"; };
+		5E34ACEDC58F83DBB9F3276F64429CD9 /* Pods-YelpHungryAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YelpHungryAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		60C9D5A437F475284C4C54FFF9394DAF /* YelpAPI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YelpAPI-umbrella.h"; sourceTree = "<group>"; };
+		66015990BEA0B37E0CF9B5B90407AD89 /* YLPSearch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLPSearch.m; path = Classes/Response/YLPSearch.m; sourceTree = "<group>"; };
+		679BE55D6DF58CF6FE30946F5530291B /* POPMath.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPMath.mm; path = pop/POPMath.mm; sourceTree = "<group>"; };
+		67D74A70EB819E0DC1B4DC2A84A7EC39 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6803BEA401013F7EA8BCAF8A2471E988 /* YLPClient+Business.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YLPClient+Business.h"; path = "Classes/Client/YLPClient+Business.h"; sourceTree = "<group>"; };
+		68F2879CB6B64F964E5097F0C7920909 /* Pods_YelpHungryApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YelpHungryApp.framework; path = "Pods-YelpHungryApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		690BAE42A51CC2091AB5F89A522227CC /* YelpAPI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YelpAPI-prefix.pch"; sourceTree = "<group>"; };
+		699A226BFB223B5A4A0A312E65D81C11 /* POPAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationInternal.h; path = pop/POPAnimationInternal.h; sourceTree = "<group>"; };
+		69D35AC64C6C491467C3C32E591B583B /* POPAnimationPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationPrivate.h; path = pop/POPAnimationPrivate.h; sourceTree = "<group>"; };
+		6A4CC4DBD7B873A5BA19481DA3B05711 /* YelpAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YelpAPI.framework; path = YelpAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A796C3147A8CC456037023D8F70C2EC /* YelpAPI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = YelpAPI.modulemap; sourceTree = "<group>"; };
+		6B0BBF756F5D6D4EF73F606F51068284 /* POPAnimationEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationEvent.h; path = pop/POPAnimationEvent.h; sourceTree = "<group>"; };
+		6B1F1FA308F827DDE5B718161DF0C83B /* Koloda-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Koloda-umbrella.h"; sourceTree = "<group>"; };
+		6CB1148C09A6BB26AB9812D28FCDBA6E /* SDImageCacheConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCacheConfig.h; path = SDWebImage/SDImageCacheConfig.h; sourceTree = "<group>"; };
+		6CDC9A0909B9FD2208819AC6E68278EB /* YelpAPI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YelpAPI.xcconfig; sourceTree = "<group>"; };
+		6E6699538CA46607A2A30640B33DD54E /* YLPClient+PhoneSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YLPClient+PhoneSearch.h"; path = "Classes/Client/YLPClient+PhoneSearch.h"; sourceTree = "<group>"; };
+		7260E3083089A6446E7FDB444A58B2B5 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDecoder.m; path = SDWebImage/SDWebImageDecoder.m; sourceTree = "<group>"; };
+		754D792E3B9108E2CB1F3C69CB57E35A /* POPAnimationRuntime.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimationRuntime.mm; path = pop/POPAnimationRuntime.mm; sourceTree = "<group>"; };
+		7561045DF2E66E054910EF03040F74D7 /* POPDecayAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDecayAnimationInternal.h; path = pop/POPDecayAnimationInternal.h; sourceTree = "<group>"; };
+		76426EDCC791B7BEE5616960E6A0525A /* POPAnimationTracerInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationTracerInternal.h; path = pop/POPAnimationTracerInternal.h; sourceTree = "<group>"; };
+		76ECCA4CEB508815C16CFF69D067C8C2 /* YelpAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YelpAPI-dummy.m"; sourceTree = "<group>"; };
+		77610FFAC653EEE937D9A4112A831A57 /* Pods-YelpHungryAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YelpHungryAppUITests-dummy.m"; sourceTree = "<group>"; };
+		7766BE41E0E4CC1B0E4B7F6AC752F830 /* YLPCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLPCategory.h; path = Classes/Response/YLPCategory.h; sourceTree = "<group>"; };
+		776D4B6B571F9111BA7A42588F6456A8 /* POPAnimationTracer.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimationTracer.mm; path = pop/POPAnimationTracer.mm; sourceTree = "<group>"; };
+		79AAFFDCBA6B6559FC8BE485462C1970 /* POPAnimationEvent.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimationEvent.mm; path = pop/POPAnimationEvent.mm; sourceTree = "<group>"; };
+		7A590B39A1A88739BD16169AF926F9E0 /* pop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = pop.xcconfig; sourceTree = "<group>"; };
+		7B4EB7F6317B2BA93900FF3229344A66 /* POPLayerExtras.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPLayerExtras.mm; path = pop/POPLayerExtras.mm; sourceTree = "<group>"; };
+		7E36D55DDCC1252808E41EA8426ECF9C /* pop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = pop.framework; path = pop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		817246CDFEEF390DF2867725DBD9433B /* OverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OverlayView.swift; path = Pod/Classes/KolodaView/OverlayView/OverlayView.swift; sourceTree = "<group>"; };
+		83480DA943FC2C4AC9AF5C69619170BC /* Pods-YelpHungryApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YelpHungryApp-dummy.m"; sourceTree = "<group>"; };
+		84000E912EE350908DEBE88ED8361C46 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85503766AB71DD7BCD8598C64D9B26C1 /* POPBasicAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPBasicAnimationInternal.h; path = pop/POPBasicAnimationInternal.h; sourceTree = "<group>"; };
+		87B02618A82CBE0F00D8369B86D0452B /* POPAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAction.h; path = pop/POPAction.h; sourceTree = "<group>"; };
+		88C526F179B88B054872628372AC0AA1 /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/SDWebImageCompat.m; sourceTree = "<group>"; };
+		8B026B521FB2B431A61B71DE01AA2D64 /* POPSpringAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPSpringAnimation.mm; path = pop/POPSpringAnimation.mm; sourceTree = "<group>"; };
+		8BCDC234666CC04A0F15C90114635E1B /* POPPropertyAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPPropertyAnimation.h; path = pop/POPPropertyAnimation.h; sourceTree = "<group>"; };
+		8D931BCE42F08869D137AD3959F85581 /* YLPClient+Search.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YLPClient+Search.h"; path = "Classes/Client/YLPClient+Search.h"; sourceTree = "<group>"; };
+		8E50F7EE8B095AC8BFA4FA6A52950777 /* YLPSortType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLPSortType.h; path = Classes/Request/YLPSortType.h; sourceTree = "<group>"; };
+		8F894FE6E64113D433A8D0CFAEC9419B /* NSData+ImageContentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageContentType.h"; path = "SDWebImage/NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		90518A86084B8C6FF49B86269AF1FAE0 /* YLPQueryPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLPQueryPrivate.h; path = Classes/Request/YLPQueryPrivate.h; sourceTree = "<group>"; };
+		92C4A779A6D889805B6FC435A6D3AFC4 /* POPGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPGeometry.h; path = pop/POPGeometry.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94475E12E8E759FF09EBEC5538CF7669 /* Pods-YelpHungryAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YelpHungryAppTests-umbrella.h"; sourceTree = "<group>"; };
+		95BED962E373014E50903A102DC109B5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97752FD4E7D93FD5BE5334D332334DDE /* POPAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimation.h; path = pop/POPAnimation.h; sourceTree = "<group>"; };
+		9A5C0AA4BE3F785A0D489F7366B9A889 /* KolodaView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KolodaView.swift; path = Pod/Classes/KolodaView/KolodaView.swift; sourceTree = "<group>"; };
+		9B7C42B57FB07D35614387A0DA34385E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9C36477C471864AFDC52D62D4301839C /* YLPUser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLPUser.m; path = Classes/Response/YLPUser.m; sourceTree = "<group>"; };
+		9C9A0D326C53BB0F2D8381B86CA94EB6 /* Koloda-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Koloda-prefix.pch"; sourceTree = "<group>"; };
+		9EB3186CA5A264F5765C9D148F682BCF /* YelpAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YelpAPI.h; path = Classes/YelpAPI.h; sourceTree = "<group>"; };
+		A01E13BA59AB6CF8FF611170EBE83FB1 /* YLPClient+Reviews.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "YLPClient+Reviews.m"; path = "Classes/Client/YLPClient+Reviews.m"; sourceTree = "<group>"; };
+		A132F06FC66B0F307E86EEAB9DAC0919 /* SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = SDWebImage/SDImageCache.h; sourceTree = "<group>"; };
+		A13D9A6E2E17B57FCF7D72BBE00CF5AE /* UnitBezier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UnitBezier.h; path = pop/WebCore/UnitBezier.h; sourceTree = "<group>"; };
+		A357668B519385B2961FACA732F21170 /* DraggableCardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DraggableCardView.swift; path = Pod/Classes/KolodaView/DraggableCardView/DraggableCardView.swift; sourceTree = "<group>"; };
+		A47DB01D78021A67FF2EB9E84E022703 /* SDImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCache.m; path = SDWebImage/SDImageCache.m; sourceTree = "<group>"; };
+		A58ABBAAD6BF63B5C56C941EF6EFCBF4 /* Pods_YelpHungryAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YelpHungryAppUITests.framework; path = "Pods-YelpHungryAppUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A66AE43A90544DE2428D3449ABA52DFE /* YLPSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLPSearch.h; path = Classes/Response/YLPSearch.h; sourceTree = "<group>"; };
+		A77A257A9C5CB76571C9E32020D7F0FE /* Pods-YelpHungryApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YelpHungryApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A83743CC42E6B526EED934CCD45E3E85 /* POPSpringSolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringSolver.h; path = pop/POPSpringSolver.h; sourceTree = "<group>"; };
+		A888053994E167E74D8EEF91B94691B3 /* POPVector.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPVector.mm; path = pop/POPVector.mm; sourceTree = "<group>"; };
+		A8B2993D13CE8BE43D377EC90F0357DA /* Pods-YelpHungryApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YelpHungryApp.modulemap"; sourceTree = "<group>"; };
+		A8D71FACC1D2C01C8C040F8D2BE6424A /* POPAnimationEventInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationEventInternal.h; path = pop/POPAnimationEventInternal.h; sourceTree = "<group>"; };
+		AA51B3AFCCC1F4EE9C0E888E3E184507 /* Pods-YelpHungryApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YelpHungryApp.debug.xcconfig"; sourceTree = "<group>"; };
+		AA86C7D77F4C98EE4B92A3BF15A4F53E /* POPMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPMath.h; path = pop/POPMath.h; sourceTree = "<group>"; };
+		AAC29D086332DECEF0DCC28C57634978 /* POPBasicAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPBasicAnimation.mm; path = pop/POPBasicAnimation.mm; sourceTree = "<group>"; };
+		AECF3D74D535F3B3D69EADA44328DAE3 /* KolodaViewAnimatior.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KolodaViewAnimatior.swift; path = Pod/Classes/KolodaView/KolodaViewAnimatior.swift; sourceTree = "<group>"; };
+		B0AE87147E39F1B37F42D0D119596872 /* SDImageCacheConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCacheConfig.m; path = SDWebImage/SDImageCacheConfig.m; sourceTree = "<group>"; };
+		B216BB099B55B394F1BBF6378F2A618B /* YLPClient+Search.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "YLPClient+Search.m"; path = "Classes/Client/YLPClient+Search.m"; sourceTree = "<group>"; };
+		B37B00292A70A95742D04DB6CEF7747E /* pop-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "pop-dummy.m"; sourceTree = "<group>"; };
+		B681FED2F8D3413197BAAAA2B1138595 /* SDWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOperation.h; path = SDWebImage/SDWebImageOperation.h; sourceTree = "<group>"; };
+		B7D82DD6CFBF0E690BC11032BB282271 /* NSImage+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSImage+WebCache.m"; path = "SDWebImage/NSImage+WebCache.m"; sourceTree = "<group>"; };
+		B9118E973C74829F36A62B10B73CB5A8 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDecoder.h; path = SDWebImage/SDWebImageDecoder.h; sourceTree = "<group>"; };
+		BA25D56B614595C797634E1731CEAEE1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BAF7BF26ABA7C6FE89ADD5749287ABD1 /* YLPBusinessReviews.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLPBusinessReviews.h; path = Classes/Response/YLPBusinessReviews.h; sourceTree = "<group>"; };
+		BCABE0AFE30900C58E1210A4F6356FCC /* Pods-YelpHungryAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YelpHungryAppTests-dummy.m"; sourceTree = "<group>"; };
+		BDC9D39DFBB71A8181E8621E24F8B3BA /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/UIButton+WebCache.m"; sourceTree = "<group>"; };
+		BFC5969032F75AA1D5555387803F40A2 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		C101A876292686E6BA8DF2B70A21F71A /* YLPLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLPLocation.m; path = Classes/Response/YLPLocation.m; sourceTree = "<group>"; };
+		C12B74159C56C40AA52D1CDA2AE39CDC /* POPCustomAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPCustomAnimation.mm; path = pop/POPCustomAnimation.mm; sourceTree = "<group>"; };
+		C4094CDBC6D8B6BEC95A832733EFE195 /* Pods-YelpHungryAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YelpHungryAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C49A80E05F739FFAEBC0F813BC76D9C1 /* YLPBusiness.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLPBusiness.h; path = Classes/Response/YLPBusiness.h; sourceTree = "<group>"; };
+		C5797DA2694D4C52AA35E3D3672E8393 /* SDWebImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.xcconfig; sourceTree = "<group>"; };
+		C8DCD0EB038F02ED54C66F0C32348B18 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "SDWebImage/UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		C8F42990B377D9FBDE8B79FD4FE30E51 /* POPAnimatorPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimatorPrivate.h; path = pop/POPAnimatorPrivate.h; sourceTree = "<group>"; };
+		C9B1223E450A31880C72180F331FE41F /* UIImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebCache.h"; path = "SDWebImage/UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		CC7049E50F39C5A0881791C1F5D0F6EA /* POPAnimator.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimator.mm; path = pop/POPAnimator.mm; sourceTree = "<group>"; };
+		CDCD1CB3021500D5A7A9DDB15D71AEC6 /* Pods-YelpHungryAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YelpHungryAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D03B3EE4BAAB327C630642D8F632922D /* Pods-YelpHungryApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YelpHungryApp-frameworks.sh"; sourceTree = "<group>"; };
+		D0F0738F11281CFD443F3555477F2D46 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MultiFormat.m"; path = "SDWebImage/UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		D2F12CC194FF82444C8079B81F55BF5F /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderOperation.m; path = SDWebImage/SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		D2F890C5DD5BC4F9FA1BB711E0524C19 /* YLPCoordinate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLPCoordinate.m; path = Classes/Common/YLPCoordinate.m; sourceTree = "<group>"; };
+		D4E597D6C6A9D1AA901CDB9531DCA0ED /* YLPCoordinate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLPCoordinate.h; path = Classes/Common/YLPCoordinate.h; sourceTree = "<group>"; };
+		D501F53E34DC601E975966F3799840F0 /* Koloda.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Koloda.xcconfig; sourceTree = "<group>"; };
+		D6CB1BD6E336F544B65D421CF061A505 /* Pods-YelpHungryApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YelpHungryApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		D7D580216992304421C162026C0DECEE /* YLPClientPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLPClientPrivate.h; path = Classes/Client/YLPClientPrivate.h; sourceTree = "<group>"; };
+		D9C696429DA1D86DA832B39CFAA13770 /* UIImage+GIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+GIF.m"; path = "SDWebImage/UIImage+GIF.m"; sourceTree = "<group>"; };
+		DCAD5338B73E4B74D7B7F57001D66428 /* YLPClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLPClient.m; path = Classes/Client/YLPClient.m; sourceTree = "<group>"; };
+		DD3093CFFA869F3CBE7024B9C1E6D4D1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEDDF84CC844992E66532EF7C25E65CC /* POPAnimatableProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimatableProperty.h; path = pop/POPAnimatableProperty.h; sourceTree = "<group>"; };
+		E12E238E967F9D25CD6696A081481858 /* YLPLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLPLocation.h; path = Classes/Response/YLPLocation.h; sourceTree = "<group>"; };
+		E16FCDDA1E744412D64C92377801A0B8 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = SDWebImage/SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		E2A454D04AFC1AD2F52DD820A7438DB0 /* YLPBusinessReviews.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLPBusinessReviews.m; path = Classes/Response/YLPBusinessReviews.m; sourceTree = "<group>"; };
+		E584CBFDEB15187DD2AA87CA71C2D3E6 /* SDWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageManager.h; path = SDWebImage/SDWebImageManager.h; sourceTree = "<group>"; };
+		E6556E59B57376944248C3270A41520A /* POPAnimationExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationExtras.h; path = pop/POPAnimationExtras.h; sourceTree = "<group>"; };
+		E7635FF91574C591049EEA811905235E /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "SDWebImage/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		EB2D619E31E30221859CD21EBFE48AF6 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCacheOperation.m"; path = "SDWebImage/UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		ECB9B049D0D49DB98ED3F8ED25A51EA6 /* YLPQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLPQuery.m; path = Classes/Request/YLPQuery.m; sourceTree = "<group>"; };
+		ED9A9F679AA516A51D7D66914902BD16 /* POPPropertyAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPPropertyAnimation.mm; path = pop/POPPropertyAnimation.mm; sourceTree = "<group>"; };
+		EFC07D9D2B4D364E744E7324F793ACE6 /* UIView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCache.m"; path = "SDWebImage/UIView+WebCache.m"; sourceTree = "<group>"; };
+		EFE8FF1763292DE11436D84E53EB336A /* POPDecayAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPDecayAnimation.mm; path = pop/POPDecayAnimation.mm; sourceTree = "<group>"; };
+		F08212FD74211BC32FA68E1E9A2C7558 /* POPLayerExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPLayerExtras.h; path = pop/POPLayerExtras.h; sourceTree = "<group>"; };
+		F0C931D50F207E0C42B1E5D4CE8D84E2 /* SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = SDWebImage/SDWebImageCompat.h; sourceTree = "<group>"; };
+		F0F2DBBA679D14131457D9FE5D9F01F1 /* YLPClient+PhoneSearch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "YLPClient+PhoneSearch.m"; path = "Classes/Client/YLPClient+PhoneSearch.m"; sourceTree = "<group>"; };
+		F15AB8F93850338BBC80CFD73F22C0FF /* POPBasicAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPBasicAnimation.h; path = pop/POPBasicAnimation.h; sourceTree = "<group>"; };
+		F285B1444161D48B89DE82AD837FB640 /* POPAnimatableProperty.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimatableProperty.mm; path = pop/POPAnimatableProperty.mm; sourceTree = "<group>"; };
+		F2FFA8ACE651C869ADD3A03488902E52 /* pop-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "pop-prefix.pch"; sourceTree = "<group>"; };
+		F36F40AAE9C011D65AE7F309E1918162 /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = SDWebImage/SDWebImageManager.m; sourceTree = "<group>"; };
+		F3E36C335F02B204B91A589C4AE06FFD /* FloatConversion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FloatConversion.h; path = pop/WebCore/FloatConversion.h; sourceTree = "<group>"; };
+		F46F9B9615FFA187996D87653A53DA46 /* Pods-YelpHungryAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YelpHungryAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F55B172708BBB9AEC6DE7BF8D53A6D7A /* YLPBusiness.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLPBusiness.m; path = Classes/Response/YLPBusiness.m; sourceTree = "<group>"; };
+		F7BC2A9E4E733076F4B1B827C4201ED9 /* pop.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = pop.modulemap; sourceTree = "<group>"; };
+		F886F343993342077EA3642998EF2812 /* SDWebImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-umbrella.h"; sourceTree = "<group>"; };
+		FBAB1CDFD42C3023AB37F52ACCDAA8C7 /* NSDictionary+YLPUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+YLPUtils.m"; path = "Classes/Response/NSDictionary+YLPUtils.m"; sourceTree = "<group>"; };
+		FC5AFA979097FC1D16616998BBE08C69 /* Koloda.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Koloda.modulemap; sourceTree = "<group>"; };
+		FD758F03B5AF987C50272F39EC7B89D7 /* Pods-YelpHungryAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YelpHungryAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FE3CFD38B49497DED4387A5ABEFA5440 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1878B2C408971E4605B0674BF3CD01A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209CA5AD8BCF0C5749E084E864D78126 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21FB00813732F53A33C6EA1D0DED3F36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F2C98ADFC5BAF5EEB414B7E38CEE342 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25A746C57BD061978703BA083A035C73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4689A98C80FAE99E8CEAB21764A1475 /* Foundation.framework in Frameworks */,
+				81D94DDC2AF1479F0CA2F22F02AD5BF3 /* pop.framework in Frameworks */,
+				C4271BEFC3CC34BB2A95F0B2350B0080 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D4823224570769BAB15F815A93DC42B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91CAE5F59CF1B280C4F3943BCB6ADB3F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9993D5CA47DCFA767C90D01ABF165968 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9952D69AB08F14F395C7666192E214 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5388798738FFC6DC9EF5709E5777403 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F2D66A48A062365BA4952421AF4192C /* Foundation.framework in Frameworks */,
+				3BEE4B2BBB318677B90C011E905372C5 /* ImageIO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB87CB8010CB8D9DFC0E9D3E686890B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DFC4863FF2CA8A34F11CCB1A0B51B82 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C689D5F0980BCFC628296C16CE75682 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				8B8E02973877A6746AC170F5631898C1 /* Core */,
+				4BC286E07EDFE0048768F3E5B4E73E1E /* Support Files */,
+			);
+			name = SDWebImage;
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		0CA6032065BD50CA808370421D886821 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF4BD361EA98BF64FB79E9099E540F4E /* Pods-YelpHungryApp */,
+				C3DB30526871AE46DE5453137ED309C1 /* Pods-YelpHungryAppTests */,
+				9A379B54F697B36619EF0A21AEFEC403 /* Pods-YelpHungryAppUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		43432618A4E7BD403E4853D97192347F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				95BED962E373014E50903A102DC109B5 /* Info.plist */,
+				F7BC2A9E4E733076F4B1B827C4201ED9 /* pop.modulemap */,
+				7A590B39A1A88739BD16169AF926F9E0 /* pop.xcconfig */,
+				B37B00292A70A95742D04DB6CEF7747E /* pop-dummy.m */,
+				F2FFA8ACE651C869ADD3A03488902E52 /* pop-prefix.pch */,
+				457FA90676E4855830B2D7C9A1BFF659 /* pop-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/pop";
+			sourceTree = "<group>";
+		};
+		4BC286E07EDFE0048768F3E5B4E73E1E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				531DDE3F4D8283CAE7E8499098EB83DA /* Info.plist */,
+				134DC5543BFCDFFE72A3A557E9581A0E /* SDWebImage.modulemap */,
+				C5797DA2694D4C52AA35E3D3672E8393 /* SDWebImage.xcconfig */,
+				034AEAB3C0468224276BC8D89F63847A /* SDWebImage-dummy.m */,
+				3B95E6C99C88EE4B0F23E018001E7BB6 /* SDWebImage-prefix.pch */,
+				F886F343993342077EA3642998EF2812 /* SDWebImage-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SDWebImage";
+			sourceTree = "<group>";
+		};
+		5032AAD293F111CEF6C5EF0ECA89C85D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				67D74A70EB819E0DC1B4DC2A84A7EC39 /* Info.plist */,
+				6A796C3147A8CC456037023D8F70C2EC /* YelpAPI.modulemap */,
+				6CDC9A0909B9FD2208819AC6E68278EB /* YelpAPI.xcconfig */,
+				76ECCA4CEB508815C16CFF69D067C8C2 /* YelpAPI-dummy.m */,
+				690BAE42A51CC2091AB5F89A522227CC /* YelpAPI-prefix.pch */,
+				60C9D5A437F475284C4C54FFF9394DAF /* YelpAPI-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YelpAPI";
+			sourceTree = "<group>";
+		};
+		503BE8001E2BF6C40E4E5BAC7D8B5502 /* Koloda */ = {
+			isa = PBXGroup;
+			children = (
+				A357668B519385B2961FACA732F21170 /* DraggableCardView.swift */,
+				34091AFA7857EC4B446C2949E20ADDBD /* KolodaCardStorage.swift */,
+				9A5C0AA4BE3F785A0D489F7366B9A889 /* KolodaView.swift */,
+				AECF3D74D535F3B3D69EADA44328DAE3 /* KolodaViewAnimatior.swift */,
+				817246CDFEEF390DF2867725DBD9433B /* OverlayView.swift */,
+				1C1D046AB1DB5D16586D2F41E883CBF7 /* SwipeResultDirection.swift */,
+				BD0BEA851BEDAB20628B79B00995A92D /* Support Files */,
+			);
+			name = Koloda;
+			path = Koloda;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A03C8ED38EAF4AD56EB0F1D5DA894EDE /* Frameworks */,
+				CB72198915E5EBEB661D081793557EF7 /* Pods */,
+				BEEDFF3F52AC4CAC94097D87DE106160 /* Products */,
+				0CA6032065BD50CA808370421D886821 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8547C4B00154B04E16737C081799A991 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9B7C42B57FB07D35614387A0DA34385E /* Foundation.framework */,
+				BFC5969032F75AA1D5555387803F40A2 /* ImageIO.framework */,
+				BA25D56B614595C797634E1731CEAEE1 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8B8E02973877A6746AC170F5631898C1 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8F894FE6E64113D433A8D0CFAEC9419B /* NSData+ImageContentType.h */,
+				38D8086FA35BB8FAF2798B7D95199BB9 /* NSData+ImageContentType.m */,
+				2B19F90A8C6A8B160F90B0E7273EEE06 /* NSImage+WebCache.h */,
+				B7D82DD6CFBF0E690BC11032BB282271 /* NSImage+WebCache.m */,
+				A132F06FC66B0F307E86EEAB9DAC0919 /* SDImageCache.h */,
+				A47DB01D78021A67FF2EB9E84E022703 /* SDImageCache.m */,
+				6CB1148C09A6BB26AB9812D28FCDBA6E /* SDImageCacheConfig.h */,
+				B0AE87147E39F1B37F42D0D119596872 /* SDImageCacheConfig.m */,
+				F0C931D50F207E0C42B1E5D4CE8D84E2 /* SDWebImageCompat.h */,
+				88C526F179B88B054872628372AC0AA1 /* SDWebImageCompat.m */,
+				B9118E973C74829F36A62B10B73CB5A8 /* SDWebImageDecoder.h */,
+				7260E3083089A6446E7FDB444A58B2B5 /* SDWebImageDecoder.m */,
+				20017B4FD1051D963C1A694D36C21FEE /* SDWebImageDownloader.h */,
+				56CD563F87CCB0C0CA23A325894D5705 /* SDWebImageDownloader.m */,
+				3EEAA9746A97145A7E7795433E00698B /* SDWebImageDownloaderOperation.h */,
+				D2F12CC194FF82444C8079B81F55BF5F /* SDWebImageDownloaderOperation.m */,
+				E584CBFDEB15187DD2AA87CA71C2D3E6 /* SDWebImageManager.h */,
+				F36F40AAE9C011D65AE7F309E1918162 /* SDWebImageManager.m */,
+				B681FED2F8D3413197BAAAA2B1138595 /* SDWebImageOperation.h */,
+				4A7B34E2B09D9E33D425619BE1E1759D /* SDWebImagePrefetcher.h */,
+				E16FCDDA1E744412D64C92377801A0B8 /* SDWebImagePrefetcher.m */,
+				34A4E103E1A996C31A086D0317CC3EB7 /* UIButton+WebCache.h */,
+				BDC9D39DFBB71A8181E8621E24F8B3BA /* UIButton+WebCache.m */,
+				439C347EE3F248D715F8CE1EAF5FD9B4 /* UIImage+GIF.h */,
+				D9C696429DA1D86DA832B39CFAA13770 /* UIImage+GIF.m */,
+				E7635FF91574C591049EEA811905235E /* UIImage+MultiFormat.h */,
+				D0F0738F11281CFD443F3555477F2D46 /* UIImage+MultiFormat.m */,
+				2EAD557DBAF38B919AABC465599A0FA3 /* UIImageView+HighlightedWebCache.h */,
+				423AD724709CD0443B8E3811EEB2F3C8 /* UIImageView+HighlightedWebCache.m */,
+				C9B1223E450A31880C72180F331FE41F /* UIImageView+WebCache.h */,
+				C8DCD0EB038F02ED54C66F0C32348B18 /* UIImageView+WebCache.m */,
+				338FCBB3DDDBF029E1B799E7379E4F18 /* UIView+WebCache.h */,
+				EFC07D9D2B4D364E744E7324F793ACE6 /* UIView+WebCache.m */,
+				FE3CFD38B49497DED4387A5ABEFA5440 /* UIView+WebCacheOperation.h */,
+				EB2D619E31E30221859CD21EBFE48AF6 /* UIView+WebCacheOperation.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		9A379B54F697B36619EF0A21AEFEC403 /* Pods-YelpHungryAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				37742BA748A5EF4CA337776F3417E696 /* Info.plist */,
+				303B304270C0B132D5BA4DFFC23DC2D1 /* Pods-YelpHungryAppUITests.modulemap */,
+				4445499669EB3E7E39BF95D700C7BB7A /* Pods-YelpHungryAppUITests-acknowledgements.markdown */,
+				C4094CDBC6D8B6BEC95A832733EFE195 /* Pods-YelpHungryAppUITests-acknowledgements.plist */,
+				77610FFAC653EEE937D9A4112A831A57 /* Pods-YelpHungryAppUITests-dummy.m */,
+				10178B963466224D1188C8239330C7B2 /* Pods-YelpHungryAppUITests-frameworks.sh */,
+				4563A8229F14066B365AAEB919E8E31E /* Pods-YelpHungryAppUITests-resources.sh */,
+				5653A3D0EB0E195518374AC7E54A07BE /* Pods-YelpHungryAppUITests-umbrella.h */,
+				054393759BD3FFDE911935362E58075F /* Pods-YelpHungryAppUITests.debug.xcconfig */,
+				FD758F03B5AF987C50272F39EC7B89D7 /* Pods-YelpHungryAppUITests.release.xcconfig */,
+			);
+			name = "Pods-YelpHungryAppUITests";
+			path = "Target Support Files/Pods-YelpHungryAppUITests";
+			sourceTree = "<group>";
+		};
+		A03C8ED38EAF4AD56EB0F1D5DA894EDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A87D1B7800C1781A42122C09A19CA7D /* pop.framework */,
+				8547C4B00154B04E16737C081799A991 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD0BEA851BEDAB20628B79B00995A92D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD3093CFFA869F3CBE7024B9C1E6D4D1 /* Info.plist */,
+				FC5AFA979097FC1D16616998BBE08C69 /* Koloda.modulemap */,
+				D501F53E34DC601E975966F3799840F0 /* Koloda.xcconfig */,
+				0D85A7EDAD55189378FB7495F021CFCD /* Koloda-dummy.m */,
+				9C9A0D326C53BB0F2D8381B86CA94EB6 /* Koloda-prefix.pch */,
+				6B1F1FA308F827DDE5B718161DF0C83B /* Koloda-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Koloda";
+			sourceTree = "<group>";
+		};
+		BEEDFF3F52AC4CAC94097D87DE106160 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48E10C8F69971F26DDF54FF77D4567B9 /* Koloda.framework */,
+				68F2879CB6B64F964E5097F0C7920909 /* Pods_YelpHungryApp.framework */,
+				4590B7B90D9E533E7C6D113F4729600F /* Pods_YelpHungryAppTests.framework */,
+				A58ABBAAD6BF63B5C56C941EF6EFCBF4 /* Pods_YelpHungryAppUITests.framework */,
+				7E36D55DDCC1252808E41EA8426ECF9C /* pop.framework */,
+				0D4B5CF7F184F9A5547B6C56A37CC57C /* SDWebImage.framework */,
+				6A4CC4DBD7B873A5BA19481DA3B05711 /* YelpAPI.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3DB30526871AE46DE5453137ED309C1 /* Pods-YelpHungryAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				0DADA278ED6E766A4DCB9DB54C15BF7F /* Info.plist */,
+				07F9888900992E9883E2649D3150813C /* Pods-YelpHungryAppTests.modulemap */,
+				CDCD1CB3021500D5A7A9DDB15D71AEC6 /* Pods-YelpHungryAppTests-acknowledgements.markdown */,
+				F46F9B9615FFA187996D87653A53DA46 /* Pods-YelpHungryAppTests-acknowledgements.plist */,
+				BCABE0AFE30900C58E1210A4F6356FCC /* Pods-YelpHungryAppTests-dummy.m */,
+				13AC61FB219B955FF69BC73EF621D280 /* Pods-YelpHungryAppTests-frameworks.sh */,
+				5C501AFCDA2E157C7314D134609C324C /* Pods-YelpHungryAppTests-resources.sh */,
+				94475E12E8E759FF09EBEC5538CF7669 /* Pods-YelpHungryAppTests-umbrella.h */,
+				2EDD750224648917642C043063AF1498 /* Pods-YelpHungryAppTests.debug.xcconfig */,
+				5E34ACEDC58F83DBB9F3276F64429CD9 /* Pods-YelpHungryAppTests.release.xcconfig */,
+			);
+			name = "Pods-YelpHungryAppTests";
+			path = "Target Support Files/Pods-YelpHungryAppTests";
+			sourceTree = "<group>";
+		};
+		CB72198915E5EBEB661D081793557EF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				503BE8001E2BF6C40E4E5BAC7D8B5502 /* Koloda */,
+				F98D66ACA9D6C8881D654AB5B13BF56F /* pop */,
+				0C689D5F0980BCFC628296C16CE75682 /* SDWebImage */,
+				EB00FB3B66BC5A22A18AD34CDD691C98 /* YelpAPI */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF4BD361EA98BF64FB79E9099E540F4E /* Pods-YelpHungryApp */ = {
+			isa = PBXGroup;
+			children = (
+				84000E912EE350908DEBE88ED8361C46 /* Info.plist */,
+				A8B2993D13CE8BE43D377EC90F0357DA /* Pods-YelpHungryApp.modulemap */,
+				A77A257A9C5CB76571C9E32020D7F0FE /* Pods-YelpHungryApp-acknowledgements.markdown */,
+				D6CB1BD6E336F544B65D421CF061A505 /* Pods-YelpHungryApp-acknowledgements.plist */,
+				83480DA943FC2C4AC9AF5C69619170BC /* Pods-YelpHungryApp-dummy.m */,
+				D03B3EE4BAAB327C630642D8F632922D /* Pods-YelpHungryApp-frameworks.sh */,
+				3EA03C163BD5BA6B31F6B9CC06660286 /* Pods-YelpHungryApp-resources.sh */,
+				33DF5BE781D1E837D5ED550795676C92 /* Pods-YelpHungryApp-umbrella.h */,
+				AA51B3AFCCC1F4EE9C0E888E3E184507 /* Pods-YelpHungryApp.debug.xcconfig */,
+				201176FA15D8868D1316CBD6FA622531 /* Pods-YelpHungryApp.release.xcconfig */,
+			);
+			name = "Pods-YelpHungryApp";
+			path = "Target Support Files/Pods-YelpHungryApp";
+			sourceTree = "<group>";
+		};
+		EB00FB3B66BC5A22A18AD34CDD691C98 /* YelpAPI */ = {
+			isa = PBXGroup;
+			children = (
+				FBAB1CDFD42C3023AB37F52ACCDAA8C7 /* NSDictionary+YLPUtils.m */,
+				9EB3186CA5A264F5765C9D148F682BCF /* YelpAPI.h */,
+				C49A80E05F739FFAEBC0F813BC76D9C1 /* YLPBusiness.h */,
+				F55B172708BBB9AEC6DE7BF8D53A6D7A /* YLPBusiness.m */,
+				BAF7BF26ABA7C6FE89ADD5749287ABD1 /* YLPBusinessReviews.h */,
+				E2A454D04AFC1AD2F52DD820A7438DB0 /* YLPBusinessReviews.m */,
+				7766BE41E0E4CC1B0E4B7F6AC752F830 /* YLPCategory.h */,
+				390C9D511B213E93B7596E5AD14E4F90 /* YLPCategory.m */,
+				1FB71E68F25F5CCD2B5D11A91C3E1215 /* YLPClient.h */,
+				DCAD5338B73E4B74D7B7F57001D66428 /* YLPClient.m */,
+				6803BEA401013F7EA8BCAF8A2471E988 /* YLPClient+Business.h */,
+				3BE46EDF76ABA69409BD816E188EC495 /* YLPClient+Business.m */,
+				6E6699538CA46607A2A30640B33DD54E /* YLPClient+PhoneSearch.h */,
+				F0F2DBBA679D14131457D9FE5D9F01F1 /* YLPClient+PhoneSearch.m */,
+				3871C46AC68AEC05ECC8791A6DD8CE70 /* YLPClient+Reviews.h */,
+				A01E13BA59AB6CF8FF611170EBE83FB1 /* YLPClient+Reviews.m */,
+				8D931BCE42F08869D137AD3959F85581 /* YLPClient+Search.h */,
+				B216BB099B55B394F1BBF6378F2A618B /* YLPClient+Search.m */,
+				D7D580216992304421C162026C0DECEE /* YLPClientPrivate.h */,
+				D4E597D6C6A9D1AA901CDB9531DCA0ED /* YLPCoordinate.h */,
+				D2F890C5DD5BC4F9FA1BB711E0524C19 /* YLPCoordinate.m */,
+				E12E238E967F9D25CD6696A081481858 /* YLPLocation.h */,
+				C101A876292686E6BA8DF2B70A21F71A /* YLPLocation.m */,
+				19EACE1A63D6024D2F317ED12A38699A /* YLPQuery.h */,
+				ECB9B049D0D49DB98ED3F8ED25A51EA6 /* YLPQuery.m */,
+				90518A86084B8C6FF49B86269AF1FAE0 /* YLPQueryPrivate.h */,
+				511CD1FE37448BC79FD7DAFA1A306891 /* YLPResponsePrivate.h */,
+				143471D192427256E1EB41CD41C7123E /* YLPReview.h */,
+				15A87871CFEB7379F36EAA744B0057D2 /* YLPReview.m */,
+				A66AE43A90544DE2428D3449ABA52DFE /* YLPSearch.h */,
+				66015990BEA0B37E0CF9B5B90407AD89 /* YLPSearch.m */,
+				8E50F7EE8B095AC8BFA4FA6A52950777 /* YLPSortType.h */,
+				337CB92DCE0922F4D1A3A5F661B2EF47 /* YLPUser.h */,
+				9C36477C471864AFDC52D62D4301839C /* YLPUser.m */,
+				5032AAD293F111CEF6C5EF0ECA89C85D /* Support Files */,
+			);
+			name = YelpAPI;
+			path = YelpAPI;
+			sourceTree = "<group>";
+		};
+		F98D66ACA9D6C8881D654AB5B13BF56F /* pop */ = {
+			isa = PBXGroup;
+			children = (
+				F3E36C335F02B204B91A589C4AE06FFD /* FloatConversion.h */,
+				5337CE7EA3DABD7D812322EB79224A11 /* POP.h */,
+				87B02618A82CBE0F00D8369B86D0452B /* POPAction.h */,
+				DEDDF84CC844992E66532EF7C25E65CC /* POPAnimatableProperty.h */,
+				F285B1444161D48B89DE82AD837FB640 /* POPAnimatableProperty.mm */,
+				97752FD4E7D93FD5BE5334D332334DDE /* POPAnimation.h */,
+				5786241514D652F4576EDDA9D872502E /* POPAnimation.mm */,
+				6B0BBF756F5D6D4EF73F606F51068284 /* POPAnimationEvent.h */,
+				79AAFFDCBA6B6559FC8BE485462C1970 /* POPAnimationEvent.mm */,
+				A8D71FACC1D2C01C8C040F8D2BE6424A /* POPAnimationEventInternal.h */,
+				E6556E59B57376944248C3270A41520A /* POPAnimationExtras.h */,
+				4DC02D86013FD663A9EB4B409EF830EC /* POPAnimationExtras.mm */,
+				699A226BFB223B5A4A0A312E65D81C11 /* POPAnimationInternal.h */,
+				69D35AC64C6C491467C3C32E591B583B /* POPAnimationPrivate.h */,
+				11F21DD79FE9F2D14E0868A3365BD2A5 /* POPAnimationRuntime.h */,
+				754D792E3B9108E2CB1F3C69CB57E35A /* POPAnimationRuntime.mm */,
+				2B6559DEAE144A2BA7C6DA48404CDC36 /* POPAnimationTracer.h */,
+				776D4B6B571F9111BA7A42588F6456A8 /* POPAnimationTracer.mm */,
+				76426EDCC791B7BEE5616960E6A0525A /* POPAnimationTracerInternal.h */,
+				47EC89598086A468DF94D342CE666F90 /* POPAnimator.h */,
+				CC7049E50F39C5A0881791C1F5D0F6EA /* POPAnimator.mm */,
+				C8F42990B377D9FBDE8B79FD4FE30E51 /* POPAnimatorPrivate.h */,
+				F15AB8F93850338BBC80CFD73F22C0FF /* POPBasicAnimation.h */,
+				AAC29D086332DECEF0DCC28C57634978 /* POPBasicAnimation.mm */,
+				85503766AB71DD7BCD8598C64D9B26C1 /* POPBasicAnimationInternal.h */,
+				143E8D491F36779F6B303D3FE9985E9D /* POPCGUtils.h */,
+				4AC7B0ABB921933028ECF4F27FA6BF3B /* POPCGUtils.mm */,
+				232B90646DD9CBC787A2AC807FD8C4C6 /* POPCustomAnimation.h */,
+				C12B74159C56C40AA52D1CDA2AE39CDC /* POPCustomAnimation.mm */,
+				23D70C4DC3D231A35402F0A811351D4B /* POPDecayAnimation.h */,
+				EFE8FF1763292DE11436D84E53EB336A /* POPDecayAnimation.mm */,
+				7561045DF2E66E054910EF03040F74D7 /* POPDecayAnimationInternal.h */,
+				0C00893030DE004872744351441C7463 /* POPDefines.h */,
+				92C4A779A6D889805B6FC435A6D3AFC4 /* POPGeometry.h */,
+				596C8B72161940D815139499157B67AB /* POPGeometry.mm */,
+				F08212FD74211BC32FA68E1E9A2C7558 /* POPLayerExtras.h */,
+				7B4EB7F6317B2BA93900FF3229344A66 /* POPLayerExtras.mm */,
+				AA86C7D77F4C98EE4B92A3BF15A4F53E /* POPMath.h */,
+				679BE55D6DF58CF6FE30946F5530291B /* POPMath.mm */,
+				8BCDC234666CC04A0F15C90114635E1B /* POPPropertyAnimation.h */,
+				ED9A9F679AA516A51D7D66914902BD16 /* POPPropertyAnimation.mm */,
+				18AB7E4F87553C652B758582B443B290 /* POPPropertyAnimationInternal.h */,
+				19E7FC213593461ECF3644AB0A44FC1A /* POPSpringAnimation.h */,
+				8B026B521FB2B431A61B71DE01AA2D64 /* POPSpringAnimation.mm */,
+				57E5DE0E6140D45732339DD0CA7B29EC /* POPSpringAnimationInternal.h */,
+				A83743CC42E6B526EED934CCD45E3E85 /* POPSpringSolver.h */,
+				32F392F67580708E79156214A482EAE5 /* POPVector.h */,
+				A888053994E167E74D8EEF91B94691B3 /* POPVector.mm */,
+				3D07C158AEF0C8167450CC1520A38BDD /* TransformationMatrix.cpp */,
+				5396E2EF49A82D7210C4425EA36A2A96 /* TransformationMatrix.h */,
+				A13D9A6E2E17B57FCF7D72BBE00CF5AE /* UnitBezier.h */,
+				43432618A4E7BD403E4853D97192347F /* Support Files */,
+			);
+			name = pop;
+			path = pop;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1D46600BC4335CE25F2353FBF88D41B5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264FE65460FA61C809042D1117A46D5F /* Pods-YelpHungryAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F6BD03FE59D5A46F712DC2476892375 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88D2D4D1D0016B8D14C4CCB3350E7FEB /* NSData+ImageContentType.h in Headers */,
+				672470B8C4009E5E33914EACD7E41F72 /* NSImage+WebCache.h in Headers */,
+				A41FE92982915863ACC7BC054D72E144 /* SDImageCache.h in Headers */,
+				E249073407E60B18B2C5C8B8070C0D45 /* SDImageCacheConfig.h in Headers */,
+				237CF307CDC8A02B27CDB3E53E6F7F01 /* SDWebImage-umbrella.h in Headers */,
+				89854EB65390B21669DFF8D3F6642D21 /* SDWebImageCompat.h in Headers */,
+				EE2B1757EB1924AE1135B9E4D29871B4 /* SDWebImageDecoder.h in Headers */,
+				6E4FED5E342FD2E3A4B34DE431F809D9 /* SDWebImageDownloader.h in Headers */,
+				7BFAB841297448827C80569515909F45 /* SDWebImageDownloaderOperation.h in Headers */,
+				9A3926DCD74E613E5C3156C9E2772EF6 /* SDWebImageManager.h in Headers */,
+				5DBF5319CD9DF44A1F2AE3FF9B39A9A7 /* SDWebImageOperation.h in Headers */,
+				D404AEE7ADE5C9C2F123C84D4BC246B5 /* SDWebImagePrefetcher.h in Headers */,
+				B9BDCD4F5BF6ED3CF9A54DACD5ED0BEA /* UIButton+WebCache.h in Headers */,
+				7502B03CD47EDF99227A6250E1F4292C /* UIImage+GIF.h in Headers */,
+				C05648CB7A9BB0A75933E0322B88585C /* UIImage+MultiFormat.h in Headers */,
+				4D72C3EA53BEB6819FA5A78A2FA3689E /* UIImageView+HighlightedWebCache.h in Headers */,
+				2383F6B212C7B2A2E2520E9BE304BFB2 /* UIImageView+WebCache.h in Headers */,
+				31EA249C96CC3F1D34EE6BF092D93357 /* UIView+WebCache.h in Headers */,
+				4D782EB144294D15FDCFDCD80C27B0AF /* UIView+WebCacheOperation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F59B983DC39CCD4944549A2EA172D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DE7D89B967A19293632A8056073E347 /* Pods-YelpHungryApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE45601E22597F3AA7F43FB89CE2367F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C99C644A2DBFC9A88913192628C5760 /* Pods-YelpHungryAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9A3F13724F6B015E7494860805BBABE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7977CE5D10B1E31304069F3062C5222 /* FloatConversion.h in Headers */,
+				D5A1FED0856A10F53BE000F1C25CE407 /* pop-umbrella.h in Headers */,
+				DC0FCE670975A1C3E088AB9BBA76E38F /* POP.h in Headers */,
+				9EFECF9947AF11473FBEC8C39A65E9AC /* POPAction.h in Headers */,
+				AFA7F36E3DCA966C0A973841DC20EACF /* POPAnimatableProperty.h in Headers */,
+				DD360B1EDF1C5906C19196EA37B358B8 /* POPAnimation.h in Headers */,
+				7979A5B1B852D7BF56C33D4CF8C123A4 /* POPAnimationEvent.h in Headers */,
+				B6BA0CBA5DAC94DB26257DDFE2544E30 /* POPAnimationEventInternal.h in Headers */,
+				082FA92AEBCC24472DD735AEA0015372 /* POPAnimationExtras.h in Headers */,
+				0F5C5CE2D8C6B19445E7B1960570E836 /* POPAnimationInternal.h in Headers */,
+				9878FFEB5378C1A71B800D9A25809578 /* POPAnimationPrivate.h in Headers */,
+				3FCC0C7A9CAF6FBF9BE833C95C471331 /* POPAnimationRuntime.h in Headers */,
+				43ED47B7D1369613B9A6857C2657DC9C /* POPAnimationTracer.h in Headers */,
+				F959060194AD6FB27A8CB306E2B54E50 /* POPAnimationTracerInternal.h in Headers */,
+				112F8C7C35DEAC1AD5268CE4F28E5FEA /* POPAnimator.h in Headers */,
+				F8825B261EE95C46D2F3D0610BE83EEA /* POPAnimatorPrivate.h in Headers */,
+				726BCFF5251576C13372233CD4520732 /* POPBasicAnimation.h in Headers */,
+				2134B885A5573C990EB1DAA8D374BF66 /* POPBasicAnimationInternal.h in Headers */,
+				161782812773E6C4776D76E02102F36C /* POPCGUtils.h in Headers */,
+				61BBEB0B1BE50D22C96A48D80D5143AC /* POPCustomAnimation.h in Headers */,
+				3045053359FDEFAED32A09BA0B246A93 /* POPDecayAnimation.h in Headers */,
+				803FC1136FFED6AFB05C52F7FCE3459C /* POPDecayAnimationInternal.h in Headers */,
+				46CF3521F40CA04CFFE4495422348611 /* POPDefines.h in Headers */,
+				C7F2DB90F91D99EEBC46FD72588469F2 /* POPGeometry.h in Headers */,
+				9AE61F3F4384E022E3EC153BF9CDD464 /* POPLayerExtras.h in Headers */,
+				EEA7C42245C16EE0D5F1EC70E2C9EE1A /* POPMath.h in Headers */,
+				318115318B128C5B1AD22CD091198D74 /* POPPropertyAnimation.h in Headers */,
+				097B551583EA1A88BD9235730BD04EE3 /* POPPropertyAnimationInternal.h in Headers */,
+				5F9BDC0436331235FFADD09366BA2EA5 /* POPSpringAnimation.h in Headers */,
+				AA25531D2526E7400F9EFBF7203253D7 /* POPSpringAnimationInternal.h in Headers */,
+				D6A47178A4C100A23454657400E63862 /* POPSpringSolver.h in Headers */,
+				FE8E36200138DB0A4D879C75D7B808D4 /* POPVector.h in Headers */,
+				28117F4351FE9F0F8901D2C7A424FF8A /* TransformationMatrix.h in Headers */,
+				56D1E357078DDE6A6686AFC7B6AFE133 /* UnitBezier.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24E1D41F79660EEDF780B43419E1EE9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0370A6BAE58BCF9A691F36F4240537F7 /* Koloda-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E03DD2EF8D65599D702C8CC4DF8FA380 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA1DD0A110D7494C2817FAAE752A676 /* YelpAPI-umbrella.h in Headers */,
+				44D9489DB2F9124C20BD06152BB153BF /* YelpAPI.h in Headers */,
+				9A826F11F6BEA64ADF9EA3D453659A1A /* YLPBusiness.h in Headers */,
+				05798FA9C2F082CCB9457E04B9D9691F /* YLPBusinessReviews.h in Headers */,
+				C3E860E02FAFAB738119F7F5A6A3CFF7 /* YLPCategory.h in Headers */,
+				43F493E13ACD4459F1238D45254ECED7 /* YLPClient+Business.h in Headers */,
+				CE5631FFA729833DECEAED115B4EE1AC /* YLPClient+PhoneSearch.h in Headers */,
+				A084A4488919AAA8AB7EE9D062EA9D08 /* YLPClient+Reviews.h in Headers */,
+				DA0085AA10D1F19D4B3ED7A655EC5B01 /* YLPClient+Search.h in Headers */,
+				3E8F717D572A63CDF478C89A06DA6407 /* YLPClient.h in Headers */,
+				30C8DB755194C255E0E0936AFFB995EB /* YLPClientPrivate.h in Headers */,
+				0D9A0983FB333FDA0A936E1C607B0F47 /* YLPCoordinate.h in Headers */,
+				35DBAC3FB47D1B4C4C7AA6555E87A727 /* YLPLocation.h in Headers */,
+				D7479C01F7ACA8FAB12C2CB46C84ED87 /* YLPQuery.h in Headers */,
+				412FAAD01C9D8AE543D396709F8473C0 /* YLPQueryPrivate.h in Headers */,
+				6B58942FEE5EA7B14376B6A53E8D253B /* YLPResponsePrivate.h in Headers */,
+				8806CE7075557D4F56B42FBAE4E74643 /* YLPReview.h in Headers */,
+				D9A3E371FD7C2B08CA947E0305885AD5 /* YLPSearch.h in Headers */,
+				EC3D03605F00C70F044AA5E14374A747 /* YLPSortType.h in Headers */,
+				7CEF721DFF42A3E043997E409BD5CDD3 /* YLPUser.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		20151774CE2F5FA6B8126D4F5ED1C5FE /* Koloda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 435CDCEF1605E54A688E63FF35562B81 /* Build configuration list for PBXNativeTarget "Koloda" */;
+			buildPhases = (
+				73C2A96D3F81D1409A3560FB2D781D15 /* Sources */,
+				25A746C57BD061978703BA083A035C73 /* Frameworks */,
+				D24E1D41F79660EEDF780B43419E1EE9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				529FBE12580C687B0ED08DC3971147A0 /* PBXTargetDependency */,
+			);
+			name = Koloda;
+			productName = Koloda;
+			productReference = 48E10C8F69971F26DDF54FF77D4567B9 /* Koloda.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		364824457B684FB7C7674448A4C0AECF /* YelpAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C9449B84CFD9124AF13F524A16559F3 /* Build configuration list for PBXNativeTarget "YelpAPI" */;
+			buildPhases = (
+				465DCBBFFBAC94E458A311DF6DBAA301 /* Sources */,
+				21FB00813732F53A33C6EA1D0DED3F36 /* Frameworks */,
+				E03DD2EF8D65599D702C8CC4DF8FA380 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YelpAPI;
+			productName = YelpAPI;
+			productReference = 6A4CC4DBD7B873A5BA19481DA3B05711 /* YelpAPI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		39CC3351A6D131BDE60E78AAFD924911 /* SDWebImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA9C3018126A0929D2F1D5612B143CB7 /* Build configuration list for PBXNativeTarget "SDWebImage" */;
+			buildPhases = (
+				26FC76ABE49ABAB38336A2DA5B9499D1 /* Sources */,
+				E5388798738FFC6DC9EF5709E5777403 /* Frameworks */,
+				2F6BD03FE59D5A46F712DC2476892375 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDWebImage;
+			productName = SDWebImage;
+			productReference = 0D4B5CF7F184F9A5547B6C56A37CC57C /* SDWebImage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9BDD0E42347ED8EDEA19928B85B79254 /* pop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05D8C828B8A5D8D504B2A41D7F5263CE /* Build configuration list for PBXNativeTarget "pop" */;
+			buildPhases = (
+				816D0CD7D9C78D61FB150701D5A817F0 /* Sources */,
+				EB87CB8010CB8D9DFC0E9D3E686890B7 /* Frameworks */,
+				C9A3F13724F6B015E7494860805BBABE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pop;
+			productName = pop;
+			productReference = 7E36D55DDCC1252808E41EA8426ECF9C /* pop.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AD93B7B8C393B72DF9207B26B55C5BDF /* Pods-YelpHungryApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 855503522C44D24B3683C900254F30D0 /* Build configuration list for PBXNativeTarget "Pods-YelpHungryApp" */;
+			buildPhases = (
+				F5075700D129A5DA4E33F4AED42200CB /* Sources */,
+				9993D5CA47DCFA767C90D01ABF165968 /* Frameworks */,
+				65F59B983DC39CCD4944549A2EA172D3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E6E807C72A62780C5D6CC955283CF00 /* PBXTargetDependency */,
+				3CB6F2E2FA2A0C0360C8513C0E59A343 /* PBXTargetDependency */,
+				94D6415A800B275548F83D5FD38E14E0 /* PBXTargetDependency */,
+				0766C614408DFA8FD0FD8569A0753FCA /* PBXTargetDependency */,
+			);
+			name = "Pods-YelpHungryApp";
+			productName = "Pods-YelpHungryApp";
+			productReference = 68F2879CB6B64F964E5097F0C7920909 /* Pods_YelpHungryApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BE2FF2CF11E0C85C6D32A9D6720C325F /* Pods-YelpHungryAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E06CCAF2456A6B523764756A5A9DF44F /* Build configuration list for PBXNativeTarget "Pods-YelpHungryAppUITests" */;
+			buildPhases = (
+				121EB50556EABC069406F64A367465DA /* Sources */,
+				1878B2C408971E4605B0674BF3CD01A0 /* Frameworks */,
+				BE45601E22597F3AA7F43FB89CE2367F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-YelpHungryAppUITests";
+			productName = "Pods-YelpHungryAppUITests";
+			productReference = A58ABBAAD6BF63B5C56C941EF6EFCBF4 /* Pods_YelpHungryAppUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E2751FBD68943EAC7FA0A829C86EF6E0 /* Pods-YelpHungryAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8676D9FEE854A479AA4BC7C5D6954F0E /* Build configuration list for PBXNativeTarget "Pods-YelpHungryAppTests" */;
+			buildPhases = (
+				06AC79E8D713C24A499B2C58F6DEA6AD /* Sources */,
+				6D4823224570769BAB15F815A93DC42B /* Frameworks */,
+				1D46600BC4335CE25F2353FBF88D41B5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-YelpHungryAppTests";
+			productName = "Pods-YelpHungryAppTests";
+			productReference = 4590B7B90D9E533E7C6D113F4729600F /* Pods_YelpHungryAppTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BEEDFF3F52AC4CAC94097D87DE106160 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20151774CE2F5FA6B8126D4F5ED1C5FE /* Koloda */,
+				AD93B7B8C393B72DF9207B26B55C5BDF /* Pods-YelpHungryApp */,
+				E2751FBD68943EAC7FA0A829C86EF6E0 /* Pods-YelpHungryAppTests */,
+				BE2FF2CF11E0C85C6D32A9D6720C325F /* Pods-YelpHungryAppUITests */,
+				9BDD0E42347ED8EDEA19928B85B79254 /* pop */,
+				39CC3351A6D131BDE60E78AAFD924911 /* SDWebImage */,
+				364824457B684FB7C7674448A4C0AECF /* YelpAPI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06AC79E8D713C24A499B2C58F6DEA6AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6EB8367A247FF4D7BA835405518AA87 /* Pods-YelpHungryAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		121EB50556EABC069406F64A367465DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269F9BB3F8704B19FABA511839337B4A /* Pods-YelpHungryAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26FC76ABE49ABAB38336A2DA5B9499D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8341EB1F49EB1D30AD1E7D08607A78 /* NSData+ImageContentType.m in Sources */,
+				2D847BFBACECE3AB716313FC0613C6F3 /* NSImage+WebCache.m in Sources */,
+				5E97EAF72A87ED40B7FCC1FF6E72919A /* SDImageCache.m in Sources */,
+				9600BFB8914156AA41578B84BA459926 /* SDImageCacheConfig.m in Sources */,
+				D81829A6D79AABFD96AE5075702924BE /* SDWebImage-dummy.m in Sources */,
+				8CA3D548625C471FF2C3043128313A6A /* SDWebImageCompat.m in Sources */,
+				27EA214C7B9EC351EA1DB1644C80D1E3 /* SDWebImageDecoder.m in Sources */,
+				21DEABBA28114F7E26F5516D70836CC8 /* SDWebImageDownloader.m in Sources */,
+				F8FB76C7A2DB8FAB372603C9EA66D5B2 /* SDWebImageDownloaderOperation.m in Sources */,
+				A2F117964491634615E3E8DC9C4233B7 /* SDWebImageManager.m in Sources */,
+				CA97623842E7E08C9D4045D6AA2432A3 /* SDWebImagePrefetcher.m in Sources */,
+				AFDDCBA3AE59B82CC5E497D14566C323 /* UIButton+WebCache.m in Sources */,
+				0BBE5CD20218139167881D45CFF1F101 /* UIImage+GIF.m in Sources */,
+				4A2CB7E0B0D8BF317F25948C4B5AF343 /* UIImage+MultiFormat.m in Sources */,
+				92AFA9B04F35B8439951392707254CEF /* UIImageView+HighlightedWebCache.m in Sources */,
+				47CD84F13A1305958D853113DF243ED0 /* UIImageView+WebCache.m in Sources */,
+				0E59F6107E9CD7E10B09E1C942F9B6D4 /* UIView+WebCache.m in Sources */,
+				118C7C49DF98A1D35AC2C9AC839CE57E /* UIView+WebCacheOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465DCBBFFBAC94E458A311DF6DBAA301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86CD40EB09D6C53BB275C114E0A1F82B /* NSDictionary+YLPUtils.m in Sources */,
+				21CD6E814EB727D6674935E85B428CF7 /* YelpAPI-dummy.m in Sources */,
+				8A8EB8B4CFE7C3994A74E6C70C1A3865 /* YLPBusiness.m in Sources */,
+				ECFAB28CFB12A1C091E30310922DAA02 /* YLPBusinessReviews.m in Sources */,
+				2DCBFF6FF296C855C52E70B7302139A3 /* YLPCategory.m in Sources */,
+				23B084B28382BE0E14D1C015AC26F16E /* YLPClient+Business.m in Sources */,
+				C3A95A8FAC375C8028FEF81B53AA0D91 /* YLPClient+PhoneSearch.m in Sources */,
+				AE3E90022AAD2D3A5489DE09A80703D6 /* YLPClient+Reviews.m in Sources */,
+				D3ED3A0ACA9D4B3106B4D1DA3A38A66C /* YLPClient+Search.m in Sources */,
+				5847F114F630D8408ACA95ACC3A1F1FC /* YLPClient.m in Sources */,
+				572ABEE75D8C2E658BECD8431BAF5495 /* YLPCoordinate.m in Sources */,
+				628F467935693A00640CC03563713BE7 /* YLPLocation.m in Sources */,
+				FC5BEE4AA90635E2483D6E51851027EE /* YLPQuery.m in Sources */,
+				E2B5B304E7BE2889738E4E34A2F9E96F /* YLPReview.m in Sources */,
+				FFE79BC7CCB3B98BF52CA4465BA37FF8 /* YLPSearch.m in Sources */,
+				E09BC30F760EE7F5CB551D125C7015D2 /* YLPUser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73C2A96D3F81D1409A3560FB2D781D15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16143090A5E1AC434839BE67339EDB95 /* DraggableCardView.swift in Sources */,
+				611EBA6258C9C42F2029C636A7D47512 /* Koloda-dummy.m in Sources */,
+				69FD1C37268D80D2322A939881AD06C9 /* KolodaCardStorage.swift in Sources */,
+				533A9231650F1DDB7BB915F86226F2DF /* KolodaView.swift in Sources */,
+				540DC04CDE9F6492D040B12472C88695 /* KolodaViewAnimatior.swift in Sources */,
+				72DB89172AB78AD338694AB86D54C73D /* OverlayView.swift in Sources */,
+				4EFA06E27AE9D3097CDC20FB95049C7B /* SwipeResultDirection.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816D0CD7D9C78D61FB150701D5A817F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091442CC5D5EA9C84B49F888E2328501 /* pop-dummy.m in Sources */,
+				54F10DA933BCE29C464FC577B6D0AC47 /* POPAnimatableProperty.mm in Sources */,
+				0ED0BE531E6987655C7E49BBD7C44A3D /* POPAnimation.mm in Sources */,
+				E9BEB8C262417FDA8B44FFADAB036240 /* POPAnimationEvent.mm in Sources */,
+				79D28C5039987E3BD979F3837EFDA83D /* POPAnimationExtras.mm in Sources */,
+				87C96F5A170A11E619C15037EFE4E649 /* POPAnimationRuntime.mm in Sources */,
+				8DBF4434B421CA81C8AE3E05F0F62881 /* POPAnimationTracer.mm in Sources */,
+				C3FE4825DE03FA8E3FEBFE04FF28817D /* POPAnimator.mm in Sources */,
+				E7CFA496151B74F9E89CA0A87FB66C30 /* POPBasicAnimation.mm in Sources */,
+				732033EAA0A34B63117950705E3EB162 /* POPCGUtils.mm in Sources */,
+				2E8798F5624B99D885B6C55C88CA7CA3 /* POPCustomAnimation.mm in Sources */,
+				1D6EC5800196AB04C390C606DF0BCE87 /* POPDecayAnimation.mm in Sources */,
+				69C653694C632A81FDA4C3334741C271 /* POPGeometry.mm in Sources */,
+				55321004AC720E810A0F825DA9395B1E /* POPLayerExtras.mm in Sources */,
+				A92D3B8C8BB1D7BDCD8D24AA13B83778 /* POPMath.mm in Sources */,
+				C4B61C095ED7D9C0696FD088E8BA00B2 /* POPPropertyAnimation.mm in Sources */,
+				E8974278399F5501771E817A3ACFF711 /* POPSpringAnimation.mm in Sources */,
+				70CEC9CC1A4B78EF8E4F5A169D7B2E4D /* POPVector.mm in Sources */,
+				EB7CC60348D09E25F14203CD456022DB /* TransformationMatrix.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5075700D129A5DA4E33F4AED42200CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA34A48C9E4C202B3EBD11B2721CDE83 /* Pods-YelpHungryApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0766C614408DFA8FD0FD8569A0753FCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = pop;
+			target = 9BDD0E42347ED8EDEA19928B85B79254 /* pop */;
+			targetProxy = 540DB6F09608FC2E196C57CC9E20A41D /* PBXContainerItemProxy */;
+		};
+		2E6E807C72A62780C5D6CC955283CF00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Koloda;
+			target = 20151774CE2F5FA6B8126D4F5ED1C5FE /* Koloda */;
+			targetProxy = 7092844312059E0C968784DC0D73FDED /* PBXContainerItemProxy */;
+		};
+		3CB6F2E2FA2A0C0360C8513C0E59A343 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImage;
+			target = 39CC3351A6D131BDE60E78AAFD924911 /* SDWebImage */;
+			targetProxy = 517B2F2EEE09BA9CB16CEC9C08003242 /* PBXContainerItemProxy */;
+		};
+		529FBE12580C687B0ED08DC3971147A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = pop;
+			target = 9BDD0E42347ED8EDEA19928B85B79254 /* pop */;
+			targetProxy = E126D4DE5A687153BD28A0F927DE1F20 /* PBXContainerItemProxy */;
+		};
+		94D6415A800B275548F83D5FD38E14E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YelpAPI;
+			target = 364824457B684FB7C7674448A4C0AECF /* YelpAPI */;
+			targetProxy = 75858C52ADC08ADF54CFBBC168758796 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08B716143A96551B6935AD4787E1868C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E34ACEDC58F83DBB9F3276F64429CD9 /* Pods-YelpHungryAppTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YelpHungryAppTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YelpHungryAppTests/Pods-YelpHungryAppTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YelpHungryAppTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		17D6D9361EEE9BF3EEF3B487DFCAE5B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A590B39A1A88739BD16169AF926F9E0 /* pop.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/pop/pop-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/pop/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/pop/pop.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = pop;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4350F1FA3CE5B85CD56FD0F46BDD9DA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CDC9A0909B9FD2208819AC6E68278EB /* YelpAPI.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YelpAPI/YelpAPI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YelpAPI/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YelpAPI/YelpAPI.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = YelpAPI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		57395EE62DD382E8533B0DFFD67983EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD758F03B5AF987C50272F39EC7B89D7 /* Pods-YelpHungryAppUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YelpHungryAppUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YelpHungryAppUITests/Pods-YelpHungryAppUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YelpHungryAppUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F4F5F33454F2ACDB4289D241119A81C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 054393759BD3FFDE911935362E58075F /* Pods-YelpHungryAppUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YelpHungryAppUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YelpHungryAppUITests/Pods-YelpHungryAppUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YelpHungryAppUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		70D5C955313FEE12251E1671C589FD50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EDD750224648917642C043063AF1498 /* Pods-YelpHungryAppTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YelpHungryAppTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YelpHungryAppTests/Pods-YelpHungryAppTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YelpHungryAppTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		72E71D940E52A8DA1CD5411B9783A144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5797DA2694D4C52AA35E3D3672E8393 /* SDWebImage.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDWebImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SDWebImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7607F299AC22EA2C927E46222FD0B562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5797DA2694D4C52AA35E3D3672E8393 /* SDWebImage.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDWebImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SDWebImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A2D97F1B5D281D9531BC2A4D342D00A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A590B39A1A88739BD16169AF926F9E0 /* pop.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/pop/pop-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/pop/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/pop/pop.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = pop;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AE661D0B3BFCFF8CA33B176818FE92FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 201176FA15D8868D1316CBD6FA622531 /* Pods-YelpHungryApp.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YelpHungryApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YelpHungryApp/Pods-YelpHungryApp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YelpHungryApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B320DDE4BDFA9FE79DBCC2CA8F55550E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D501F53E34DC601E975966F3799840F0 /* Koloda.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Koloda/Koloda-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Koloda/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Koloda/Koloda.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Koloda;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C39DCADD538927CE5855B5748B6621C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CDC9A0909B9FD2208819AC6E68278EB /* YelpAPI.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YelpAPI/YelpAPI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YelpAPI/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YelpAPI/YelpAPI.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = YelpAPI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C5FB8E3677559AD74D21D9761F08460E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D501F53E34DC601E975966F3799840F0 /* Koloda.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Koloda/Koloda-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Koloda/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Koloda/Koloda.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Koloda;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DC5D1DD90B1EAC7D5869521DBD9B8AB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA51B3AFCCC1F4EE9C0E888E3E184507 /* Pods-YelpHungryApp.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YelpHungryApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YelpHungryApp/Pods-YelpHungryApp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YelpHungryApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05D8C828B8A5D8D504B2A41D7F5263CE /* Build configuration list for PBXNativeTarget "pop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17D6D9361EEE9BF3EEF3B487DFCAE5B3 /* Debug */,
+				A2D97F1B5D281D9531BC2A4D342D00A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
+				E72E7977875C2D251FC62736BBDDC389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		435CDCEF1605E54A688E63FF35562B81 /* Build configuration list for PBXNativeTarget "Koloda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5FB8E3677559AD74D21D9761F08460E /* Debug */,
+				B320DDE4BDFA9FE79DBCC2CA8F55550E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C9449B84CFD9124AF13F524A16559F3 /* Build configuration list for PBXNativeTarget "YelpAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4350F1FA3CE5B85CD56FD0F46BDD9DA5 /* Debug */,
+				C39DCADD538927CE5855B5748B6621C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		855503522C44D24B3683C900254F30D0 /* Build configuration list for PBXNativeTarget "Pods-YelpHungryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC5D1DD90B1EAC7D5869521DBD9B8AB0 /* Debug */,
+				AE661D0B3BFCFF8CA33B176818FE92FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8676D9FEE854A479AA4BC7C5D6954F0E /* Build configuration list for PBXNativeTarget "Pods-YelpHungryAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70D5C955313FEE12251E1671C589FD50 /* Debug */,
+				08B716143A96551B6935AD4787E1868C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA9C3018126A0929D2F1D5612B143CB7 /* Build configuration list for PBXNativeTarget "SDWebImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7607F299AC22EA2C927E46222FD0B562 /* Debug */,
+				72E71D940E52A8DA1CD5411B9783A144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E06CCAF2456A6B523764756A5A9DF44F /* Build configuration list for PBXNativeTarget "Pods-YelpHungryAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F4F5F33454F2ACDB4289D241119A81C /* Debug */,
+				57395EE62DD382E8533B0DFFD67983EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

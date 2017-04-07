@@ -1,0 +1,6 @@
+framework module Pods_YelpHungryApp {
+  umbrella header "Pods-YelpHungryApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

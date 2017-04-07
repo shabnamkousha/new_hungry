@@ -1,0 +1,23 @@
+PODS:
+  - Koloda (4.0):
+    - pop (~> 1.0)
+  - pop (1.0.9)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - YelpAPI (2.0.0)
+
+DEPENDENCIES:
+  - Koloda
+  - SDWebImage
+  - YelpAPI
+
+SPEC CHECKSUMS:
+  Koloda: cb171633afc6182a77821b7951e38b2cb272ba7c
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  YelpAPI: a0475cf4a7b6f9fe81f1bb7b8a8492770f21e3c7
+
+PODFILE CHECKSUM: 2e5c2437213b428c58837ddf89af432d65c7c1f2
+
+COCOAPODS: 1.2.0

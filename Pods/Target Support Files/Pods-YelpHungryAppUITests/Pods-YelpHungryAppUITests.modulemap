@@ -1,0 +1,6 @@
+framework module Pods_YelpHungryAppUITests {
+  umbrella header "Pods-YelpHungryAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
